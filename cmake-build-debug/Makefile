@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named prac27
+
+# Build rule for target.
+prac27: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac27
+.PHONY : prac27
+
+# fast build rule for target.
+prac27/fast:
+	$(MAKE) -f CMakeFiles\prac27.dir\build.make CMakeFiles/prac27.dir/build
+.PHONY : prac27/fast
+
+#=============================================================================
 # Target rules for targets named C_Programming
 
 # Build rule for target.
@@ -134,6 +147,19 @@ prac7: cmake_check_build_system
 prac7/fast:
 	$(MAKE) -f CMakeFiles\prac7.dir\build.make CMakeFiles/prac7.dir/build
 .PHONY : prac7/fast
+
+#=============================================================================
+# Target rules for targets named prac23
+
+# Build rule for target.
+prac23: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac23
+.PHONY : prac23
+
+# fast build rule for target.
+prac23/fast:
+	$(MAKE) -f CMakeFiles\prac23.dir\build.make CMakeFiles/prac23.dir/build
+.PHONY : prac23/fast
 
 #=============================================================================
 # Target rules for targets named prac3
@@ -201,6 +227,19 @@ prac2/fast:
 .PHONY : prac2/fast
 
 #=============================================================================
+# Target rules for targets named prac24
+
+# Build rule for target.
+prac24: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac24
+.PHONY : prac24
+
+# fast build rule for target.
+prac24/fast:
+	$(MAKE) -f CMakeFiles\prac24.dir\build.make CMakeFiles/prac24.dir/build
+.PHONY : prac24/fast
+
+#=============================================================================
 # Target rules for targets named prac4
 
 # Build rule for target.
@@ -212,6 +251,19 @@ prac4: cmake_check_build_system
 prac4/fast:
 	$(MAKE) -f CMakeFiles\prac4.dir\build.make CMakeFiles/prac4.dir/build
 .PHONY : prac4/fast
+
+#=============================================================================
+# Target rules for targets named prac25
+
+# Build rule for target.
+prac25: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac25
+.PHONY : prac25
+
+# fast build rule for target.
+prac25/fast:
+	$(MAKE) -f CMakeFiles\prac25.dir\build.make CMakeFiles/prac25.dir/build
+.PHONY : prac25/fast
 
 #=============================================================================
 # Target rules for targets named prac5
@@ -227,6 +279,19 @@ prac5/fast:
 .PHONY : prac5/fast
 
 #=============================================================================
+# Target rules for targets named prac26
+
+# Build rule for target.
+prac26: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac26
+.PHONY : prac26
+
+# fast build rule for target.
+prac26/fast:
+	$(MAKE) -f CMakeFiles\prac26.dir\build.make CMakeFiles/prac26.dir/build
+.PHONY : prac26/fast
+
+#=============================================================================
 # Target rules for targets named prac6
 
 # Build rule for target.
@@ -240,6 +305,19 @@ prac6/fast:
 .PHONY : prac6/fast
 
 #=============================================================================
+# Target rules for targets named prac28
+
+# Build rule for target.
+prac28: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac28
+.PHONY : prac28
+
+# fast build rule for target.
+prac28/fast:
+	$(MAKE) -f CMakeFiles\prac28.dir\build.make CMakeFiles/prac28.dir/build
+.PHONY : prac28/fast
+
+#=============================================================================
 # Target rules for targets named prac8
 
 # Build rule for target.
@@ -251,6 +329,19 @@ prac8: cmake_check_build_system
 prac8/fast:
 	$(MAKE) -f CMakeFiles\prac8.dir\build.make CMakeFiles/prac8.dir/build
 .PHONY : prac8/fast
+
+#=============================================================================
+# Target rules for targets named prac29
+
+# Build rule for target.
+prac29: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac29
+.PHONY : prac29
+
+# fast build rule for target.
+prac29/fast:
+	$(MAKE) -f CMakeFiles\prac29.dir\build.make CMakeFiles/prac29.dir/build
+.PHONY : prac29/fast
 
 #=============================================================================
 # Target rules for targets named prac9
@@ -407,6 +498,32 @@ prac20: cmake_check_build_system
 prac20/fast:
 	$(MAKE) -f CMakeFiles\prac20.dir\build.make CMakeFiles/prac20.dir/build
 .PHONY : prac20/fast
+
+#=============================================================================
+# Target rules for targets named prac30
+
+# Build rule for target.
+prac30: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac30
+.PHONY : prac30
+
+# fast build rule for target.
+prac30/fast:
+	$(MAKE) -f CMakeFiles\prac30.dir\build.make CMakeFiles/prac30.dir/build
+.PHONY : prac30/fast
+
+#=============================================================================
+# Target rules for targets named prac31
+
+# Build rule for target.
+prac31: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac31
+.PHONY : prac31
+
+# fast build rule for target.
+prac31/fast:
+	$(MAKE) -f CMakeFiles\prac31.dir\build.make CMakeFiles/prac31.dir/build
+.PHONY : prac31/fast
 
 main.obj: main.c.obj
 
@@ -840,6 +957,195 @@ mooc/prac22.c.s:
 	$(MAKE) -f CMakeFiles\prac22.dir\build.make CMakeFiles/prac22.dir/mooc/prac22.c.s
 .PHONY : mooc/prac22.c.s
 
+mooc/prac23.obj: mooc/prac23.c.obj
+
+.PHONY : mooc/prac23.obj
+
+# target to build an object file
+mooc/prac23.c.obj:
+	$(MAKE) -f CMakeFiles\prac23.dir\build.make CMakeFiles/prac23.dir/mooc/prac23.c.obj
+.PHONY : mooc/prac23.c.obj
+
+mooc/prac23.i: mooc/prac23.c.i
+
+.PHONY : mooc/prac23.i
+
+# target to preprocess a source file
+mooc/prac23.c.i:
+	$(MAKE) -f CMakeFiles\prac23.dir\build.make CMakeFiles/prac23.dir/mooc/prac23.c.i
+.PHONY : mooc/prac23.c.i
+
+mooc/prac23.s: mooc/prac23.c.s
+
+.PHONY : mooc/prac23.s
+
+# target to generate assembly for a file
+mooc/prac23.c.s:
+	$(MAKE) -f CMakeFiles\prac23.dir\build.make CMakeFiles/prac23.dir/mooc/prac23.c.s
+.PHONY : mooc/prac23.c.s
+
+mooc/prac24.obj: mooc/prac24.c.obj
+
+.PHONY : mooc/prac24.obj
+
+# target to build an object file
+mooc/prac24.c.obj:
+	$(MAKE) -f CMakeFiles\prac24.dir\build.make CMakeFiles/prac24.dir/mooc/prac24.c.obj
+.PHONY : mooc/prac24.c.obj
+
+mooc/prac24.i: mooc/prac24.c.i
+
+.PHONY : mooc/prac24.i
+
+# target to preprocess a source file
+mooc/prac24.c.i:
+	$(MAKE) -f CMakeFiles\prac24.dir\build.make CMakeFiles/prac24.dir/mooc/prac24.c.i
+.PHONY : mooc/prac24.c.i
+
+mooc/prac24.s: mooc/prac24.c.s
+
+.PHONY : mooc/prac24.s
+
+# target to generate assembly for a file
+mooc/prac24.c.s:
+	$(MAKE) -f CMakeFiles\prac24.dir\build.make CMakeFiles/prac24.dir/mooc/prac24.c.s
+.PHONY : mooc/prac24.c.s
+
+mooc/prac25.obj: mooc/prac25.c.obj
+
+.PHONY : mooc/prac25.obj
+
+# target to build an object file
+mooc/prac25.c.obj:
+	$(MAKE) -f CMakeFiles\prac25.dir\build.make CMakeFiles/prac25.dir/mooc/prac25.c.obj
+.PHONY : mooc/prac25.c.obj
+
+mooc/prac25.i: mooc/prac25.c.i
+
+.PHONY : mooc/prac25.i
+
+# target to preprocess a source file
+mooc/prac25.c.i:
+	$(MAKE) -f CMakeFiles\prac25.dir\build.make CMakeFiles/prac25.dir/mooc/prac25.c.i
+.PHONY : mooc/prac25.c.i
+
+mooc/prac25.s: mooc/prac25.c.s
+
+.PHONY : mooc/prac25.s
+
+# target to generate assembly for a file
+mooc/prac25.c.s:
+	$(MAKE) -f CMakeFiles\prac25.dir\build.make CMakeFiles/prac25.dir/mooc/prac25.c.s
+.PHONY : mooc/prac25.c.s
+
+mooc/prac26.obj: mooc/prac26.c.obj
+
+.PHONY : mooc/prac26.obj
+
+# target to build an object file
+mooc/prac26.c.obj:
+	$(MAKE) -f CMakeFiles\prac26.dir\build.make CMakeFiles/prac26.dir/mooc/prac26.c.obj
+.PHONY : mooc/prac26.c.obj
+
+mooc/prac26.i: mooc/prac26.c.i
+
+.PHONY : mooc/prac26.i
+
+# target to preprocess a source file
+mooc/prac26.c.i:
+	$(MAKE) -f CMakeFiles\prac26.dir\build.make CMakeFiles/prac26.dir/mooc/prac26.c.i
+.PHONY : mooc/prac26.c.i
+
+mooc/prac26.s: mooc/prac26.c.s
+
+.PHONY : mooc/prac26.s
+
+# target to generate assembly for a file
+mooc/prac26.c.s:
+	$(MAKE) -f CMakeFiles\prac26.dir\build.make CMakeFiles/prac26.dir/mooc/prac26.c.s
+.PHONY : mooc/prac26.c.s
+
+mooc/prac27.obj: mooc/prac27.c.obj
+
+.PHONY : mooc/prac27.obj
+
+# target to build an object file
+mooc/prac27.c.obj:
+	$(MAKE) -f CMakeFiles\prac27.dir\build.make CMakeFiles/prac27.dir/mooc/prac27.c.obj
+.PHONY : mooc/prac27.c.obj
+
+mooc/prac27.i: mooc/prac27.c.i
+
+.PHONY : mooc/prac27.i
+
+# target to preprocess a source file
+mooc/prac27.c.i:
+	$(MAKE) -f CMakeFiles\prac27.dir\build.make CMakeFiles/prac27.dir/mooc/prac27.c.i
+.PHONY : mooc/prac27.c.i
+
+mooc/prac27.s: mooc/prac27.c.s
+
+.PHONY : mooc/prac27.s
+
+# target to generate assembly for a file
+mooc/prac27.c.s:
+	$(MAKE) -f CMakeFiles\prac27.dir\build.make CMakeFiles/prac27.dir/mooc/prac27.c.s
+.PHONY : mooc/prac27.c.s
+
+mooc/prac28.obj: mooc/prac28.c.obj
+
+.PHONY : mooc/prac28.obj
+
+# target to build an object file
+mooc/prac28.c.obj:
+	$(MAKE) -f CMakeFiles\prac28.dir\build.make CMakeFiles/prac28.dir/mooc/prac28.c.obj
+.PHONY : mooc/prac28.c.obj
+
+mooc/prac28.i: mooc/prac28.c.i
+
+.PHONY : mooc/prac28.i
+
+# target to preprocess a source file
+mooc/prac28.c.i:
+	$(MAKE) -f CMakeFiles\prac28.dir\build.make CMakeFiles/prac28.dir/mooc/prac28.c.i
+.PHONY : mooc/prac28.c.i
+
+mooc/prac28.s: mooc/prac28.c.s
+
+.PHONY : mooc/prac28.s
+
+# target to generate assembly for a file
+mooc/prac28.c.s:
+	$(MAKE) -f CMakeFiles\prac28.dir\build.make CMakeFiles/prac28.dir/mooc/prac28.c.s
+.PHONY : mooc/prac28.c.s
+
+mooc/prac29.obj: mooc/prac29.c.obj
+
+.PHONY : mooc/prac29.obj
+
+# target to build an object file
+mooc/prac29.c.obj:
+	$(MAKE) -f CMakeFiles\prac29.dir\build.make CMakeFiles/prac29.dir/mooc/prac29.c.obj
+.PHONY : mooc/prac29.c.obj
+
+mooc/prac29.i: mooc/prac29.c.i
+
+.PHONY : mooc/prac29.i
+
+# target to preprocess a source file
+mooc/prac29.c.i:
+	$(MAKE) -f CMakeFiles\prac29.dir\build.make CMakeFiles/prac29.dir/mooc/prac29.c.i
+.PHONY : mooc/prac29.c.i
+
+mooc/prac29.s: mooc/prac29.c.s
+
+.PHONY : mooc/prac29.s
+
+# target to generate assembly for a file
+mooc/prac29.c.s:
+	$(MAKE) -f CMakeFiles\prac29.dir\build.make CMakeFiles/prac29.dir/mooc/prac29.c.s
+.PHONY : mooc/prac29.c.s
+
 mooc/prac3.obj: mooc/prac3.c.obj
 
 .PHONY : mooc/prac3.obj
@@ -866,6 +1172,60 @@ mooc/prac3.s: mooc/prac3.c.s
 mooc/prac3.c.s:
 	$(MAKE) -f CMakeFiles\prac3.dir\build.make CMakeFiles/prac3.dir/mooc/prac3.c.s
 .PHONY : mooc/prac3.c.s
+
+mooc/prac30.obj: mooc/prac30.c.obj
+
+.PHONY : mooc/prac30.obj
+
+# target to build an object file
+mooc/prac30.c.obj:
+	$(MAKE) -f CMakeFiles\prac30.dir\build.make CMakeFiles/prac30.dir/mooc/prac30.c.obj
+.PHONY : mooc/prac30.c.obj
+
+mooc/prac30.i: mooc/prac30.c.i
+
+.PHONY : mooc/prac30.i
+
+# target to preprocess a source file
+mooc/prac30.c.i:
+	$(MAKE) -f CMakeFiles\prac30.dir\build.make CMakeFiles/prac30.dir/mooc/prac30.c.i
+.PHONY : mooc/prac30.c.i
+
+mooc/prac30.s: mooc/prac30.c.s
+
+.PHONY : mooc/prac30.s
+
+# target to generate assembly for a file
+mooc/prac30.c.s:
+	$(MAKE) -f CMakeFiles\prac30.dir\build.make CMakeFiles/prac30.dir/mooc/prac30.c.s
+.PHONY : mooc/prac30.c.s
+
+mooc/prac31.obj: mooc/prac31.c.obj
+
+.PHONY : mooc/prac31.obj
+
+# target to build an object file
+mooc/prac31.c.obj:
+	$(MAKE) -f CMakeFiles\prac31.dir\build.make CMakeFiles/prac31.dir/mooc/prac31.c.obj
+.PHONY : mooc/prac31.c.obj
+
+mooc/prac31.i: mooc/prac31.c.i
+
+.PHONY : mooc/prac31.i
+
+# target to preprocess a source file
+mooc/prac31.c.i:
+	$(MAKE) -f CMakeFiles\prac31.dir\build.make CMakeFiles/prac31.dir/mooc/prac31.c.i
+.PHONY : mooc/prac31.c.i
+
+mooc/prac31.s: mooc/prac31.c.s
+
+.PHONY : mooc/prac31.s
+
+# target to generate assembly for a file
+mooc/prac31.c.s:
+	$(MAKE) -f CMakeFiles\prac31.dir\build.make CMakeFiles/prac31.dir/mooc/prac31.c.s
+.PHONY : mooc/prac31.c.s
 
 mooc/prac4.obj: mooc/prac4.c.obj
 
@@ -1035,17 +1395,24 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... prac27
 	@echo ... C_Programming
 	@echo ... prac7
+	@echo ... prac23
 	@echo ... prac3
 	@echo ... prac21
 	@echo ... prac1
 	@echo ... prac22
 	@echo ... prac2
+	@echo ... prac24
 	@echo ... prac4
+	@echo ... prac25
 	@echo ... prac5
+	@echo ... prac26
 	@echo ... prac6
+	@echo ... prac28
 	@echo ... prac8
+	@echo ... prac29
 	@echo ... prac9
 	@echo ... prac10
 	@echo ... prac11
@@ -1059,6 +1426,8 @@ help:
 	@echo ... rebuild_cache
 	@echo ... prac19
 	@echo ... prac20
+	@echo ... prac30
+	@echo ... prac31
 	@echo ... edit_cache
 	@echo ... main.obj
 	@echo ... main.i
@@ -1108,9 +1477,36 @@ help:
 	@echo ... mooc/prac22.obj
 	@echo ... mooc/prac22.i
 	@echo ... mooc/prac22.s
+	@echo ... mooc/prac23.obj
+	@echo ... mooc/prac23.i
+	@echo ... mooc/prac23.s
+	@echo ... mooc/prac24.obj
+	@echo ... mooc/prac24.i
+	@echo ... mooc/prac24.s
+	@echo ... mooc/prac25.obj
+	@echo ... mooc/prac25.i
+	@echo ... mooc/prac25.s
+	@echo ... mooc/prac26.obj
+	@echo ... mooc/prac26.i
+	@echo ... mooc/prac26.s
+	@echo ... mooc/prac27.obj
+	@echo ... mooc/prac27.i
+	@echo ... mooc/prac27.s
+	@echo ... mooc/prac28.obj
+	@echo ... mooc/prac28.i
+	@echo ... mooc/prac28.s
+	@echo ... mooc/prac29.obj
+	@echo ... mooc/prac29.i
+	@echo ... mooc/prac29.s
 	@echo ... mooc/prac3.obj
 	@echo ... mooc/prac3.i
 	@echo ... mooc/prac3.s
+	@echo ... mooc/prac30.obj
+	@echo ... mooc/prac30.i
+	@echo ... mooc/prac30.s
+	@echo ... mooc/prac31.obj
+	@echo ... mooc/prac31.i
+	@echo ... mooc/prac31.s
 	@echo ... mooc/prac4.obj
 	@echo ... mooc/prac4.i
 	@echo ... mooc/prac4.s
