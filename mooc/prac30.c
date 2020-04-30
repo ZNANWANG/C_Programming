@@ -8,13 +8,13 @@ void f(int *p);
 
 void swap(int *x, int *y);
 
-int main(){
+int main() {
     int a[10];
 
     printf("%p\n", &a);
-    printf("%p\n",a);
-    printf("%p\n",&a[0]);
-    printf("%p\n",&a[1]); // 堆自底向上存储变量，地址变大。
+    printf("%p\n", a);
+    printf("%p\n", &a[0]);
+    printf("%p\n", &a[1]); // 堆自底向上存储变量，地址变大。
 
     int i = 0;
     int p;
@@ -47,7 +47,7 @@ void swap(int *x, int *y) {
  * 区别p和*p
  * @param p 指针
  */
-void f(int *p){
+void f(int *p) {
     printf("p = %p\n", p);
     printf("*p = %d\n", *p);
 }
