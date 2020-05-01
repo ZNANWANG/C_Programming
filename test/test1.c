@@ -21,6 +21,9 @@ int main() {
     }
 }
 
+/**
+ * 注意当n>=13时，返回阶乘值出错，因为int值超限，可以改为返回long。
+ */
 int fact1(int n) {
     int ret = 1;
     for (int i = 1; i <= n; i++) {

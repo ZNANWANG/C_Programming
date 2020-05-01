@@ -46,7 +46,7 @@ void getResult() {
     int target, N, number, count = 0;
     scanf("%d %d", &target, &N);
     scanf("%d", &number);
-    while(number >= 0){
+    while (number >= 0) {
         count++;
         if (number > target) {
             printf("Too big\n");
@@ -73,21 +73,21 @@ void getResult1() {
     int target, N, number, count = 0;
     scanf("%d %d", &target, &N);
     scanf("%d", &number);
-    while(number >= 0){
+    while (number >= 0) {
         count++;
         if (number > target) {
             printf("Too big\n");
         } else if (number < target) {
             printf("Too small\n");
         } else {
-            if(count > N){
+            if (count > N) {
                 printf("Game Over");
             } else {
-                if(count > 3){
+                if (count > 3) {
                     printf("Good Guess!");
-                } else if(count > 1){
+                } else if (count > 1) {
                     printf("Lucky You!");
-                } else if(count == 1){
+                } else if (count == 1) {
                     printf("Bingo!");
                 }
             }

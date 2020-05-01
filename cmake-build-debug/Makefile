@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = G:\CLionProjects\C_Programming\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"G:\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -76,6 +65,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"G:\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -134,6 +134,19 @@ prac27/fast:
 2_2_5/fast:
 	$(MAKE) -f CMakeFiles\2_2_5.dir\build.make CMakeFiles/2_2_5.dir/build
 .PHONY : 2_2_5/fast
+
+#=============================================================================
+# Target rules for targets named 5_10
+
+# Build rule for target.
+5_10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 5_10
+.PHONY : 5_10
+
+# fast build rule for target.
+5_10/fast:
+	$(MAKE) -f CMakeFiles\5_10.dir\build.make CMakeFiles/5_10.dir/build
+.PHONY : 5_10/fast
 
 #=============================================================================
 # Target rules for targets named 2_1_2
@@ -420,6 +433,19 @@ prac26/fast:
 2_2_4/fast:
 	$(MAKE) -f CMakeFiles\2_2_4.dir\build.make CMakeFiles/2_2_4.dir/build
 .PHONY : 2_2_4/fast
+
+#=============================================================================
+# Target rules for targets named 5_11
+
+# Build rule for target.
+5_11: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 5_11
+.PHONY : 5_11
+
+# fast build rule for target.
+5_11/fast:
+	$(MAKE) -f CMakeFiles\5_11.dir\build.make CMakeFiles/5_11.dir/build
+.PHONY : 5_11/fast
 
 #=============================================================================
 # Target rules for targets named 2_1_3
@@ -1007,17 +1033,17 @@ test1/fast:
 .PHONY : 2_4_4/fast
 
 #=============================================================================
-# Target rules for targets named 2_4_5
+# Target rules for targets named 2_4_6
 
 # Build rule for target.
-2_4_5: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 2_4_5
-.PHONY : 2_4_5
+2_4_6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2_4_6
+.PHONY : 2_4_6
 
 # fast build rule for target.
-2_4_5/fast:
-	$(MAKE) -f CMakeFiles\2_4_5.dir\build.make CMakeFiles/2_4_5.dir/build
-.PHONY : 2_4_5/fast
+2_4_6/fast:
+	$(MAKE) -f CMakeFiles\2_4_6.dir\build.make CMakeFiles/2_4_6.dir/build
+.PHONY : 2_4_6/fast
 
 #=============================================================================
 # Target rules for targets named 2_4_7
@@ -1343,6 +1369,500 @@ test2/fast:
 4_1_12/fast:
 	$(MAKE) -f CMakeFiles\4_1_12.dir\build.make CMakeFiles/4_1_12.dir/build
 .PHONY : 4_1_12/fast
+
+#=============================================================================
+# Target rules for targets named prac40
+
+# Build rule for target.
+prac40: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac40
+.PHONY : prac40
+
+# fast build rule for target.
+prac40/fast:
+	$(MAKE) -f CMakeFiles\prac40.dir\build.make CMakeFiles/prac40.dir/build
+.PHONY : prac40/fast
+
+#=============================================================================
+# Target rules for targets named 4_2_2
+
+# Build rule for target.
+4_2_2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 4_2_2
+.PHONY : 4_2_2
+
+# fast build rule for target.
+4_2_2/fast:
+	$(MAKE) -f CMakeFiles\4_2_2.dir\build.make CMakeFiles/4_2_2.dir/build
+.PHONY : 4_2_2/fast
+
+#=============================================================================
+# Target rules for targets named prac41
+
+# Build rule for target.
+prac41: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac41
+.PHONY : prac41
+
+# fast build rule for target.
+prac41/fast:
+	$(MAKE) -f CMakeFiles\prac41.dir\build.make CMakeFiles/prac41.dir/build
+.PHONY : prac41/fast
+
+#=============================================================================
+# Target rules for targets named 4_2_3
+
+# Build rule for target.
+4_2_3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 4_2_3
+.PHONY : 4_2_3
+
+# fast build rule for target.
+4_2_3/fast:
+	$(MAKE) -f CMakeFiles\4_2_3.dir\build.make CMakeFiles/4_2_3.dir/build
+.PHONY : 4_2_3/fast
+
+#=============================================================================
+# Target rules for targets named prac46
+
+# Build rule for target.
+prac46: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac46
+.PHONY : prac46
+
+# fast build rule for target.
+prac46/fast:
+	$(MAKE) -f CMakeFiles\prac46.dir\build.make CMakeFiles/prac46.dir/build
+.PHONY : prac46/fast
+
+#=============================================================================
+# Target rules for targets named 4_2_4
+
+# Build rule for target.
+4_2_4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 4_2_4
+.PHONY : 4_2_4
+
+# fast build rule for target.
+4_2_4/fast:
+	$(MAKE) -f CMakeFiles\4_2_4.dir\build.make CMakeFiles/4_2_4.dir/build
+.PHONY : 4_2_4/fast
+
+#=============================================================================
+# Target rules for targets named prac47
+
+# Build rule for target.
+prac47: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac47
+.PHONY : prac47
+
+# fast build rule for target.
+prac47/fast:
+	$(MAKE) -f CMakeFiles\prac47.dir\build.make CMakeFiles/prac47.dir/build
+.PHONY : prac47/fast
+
+#=============================================================================
+# Target rules for targets named 4_2_5
+
+# Build rule for target.
+4_2_5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 4_2_5
+.PHONY : 4_2_5
+
+# fast build rule for target.
+4_2_5/fast:
+	$(MAKE) -f CMakeFiles\4_2_5.dir\build.make CMakeFiles/4_2_5.dir/build
+.PHONY : 4_2_5/fast
+
+#=============================================================================
+# Target rules for targets named test3
+
+# Build rule for target.
+test3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 test3
+.PHONY : test3
+
+# fast build rule for target.
+test3/fast:
+	$(MAKE) -f CMakeFiles\test3.dir\build.make CMakeFiles/test3.dir/build
+.PHONY : test3/fast
+
+#=============================================================================
+# Target rules for targets named prac44
+
+# Build rule for target.
+prac44: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac44
+.PHONY : prac44
+
+# fast build rule for target.
+prac44/fast:
+	$(MAKE) -f CMakeFiles\prac44.dir\build.make CMakeFiles/prac44.dir/build
+.PHONY : prac44/fast
+
+#=============================================================================
+# Target rules for targets named 4_2_6
+
+# Build rule for target.
+4_2_6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 4_2_6
+.PHONY : 4_2_6
+
+# fast build rule for target.
+4_2_6/fast:
+	$(MAKE) -f CMakeFiles\4_2_6.dir\build.make CMakeFiles/4_2_6.dir/build
+.PHONY : 4_2_6/fast
+
+#=============================================================================
+# Target rules for targets named prac45
+
+# Build rule for target.
+prac45: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac45
+.PHONY : prac45
+
+# fast build rule for target.
+prac45/fast:
+	$(MAKE) -f CMakeFiles\prac45.dir\build.make CMakeFiles/prac45.dir/build
+.PHONY : prac45/fast
+
+#=============================================================================
+# Target rules for targets named 4_2_7
+
+# Build rule for target.
+4_2_7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 4_2_7
+.PHONY : 4_2_7
+
+# fast build rule for target.
+4_2_7/fast:
+	$(MAKE) -f CMakeFiles\4_2_7.dir\build.make CMakeFiles/4_2_7.dir/build
+.PHONY : 4_2_7/fast
+
+#=============================================================================
+# Target rules for targets named 4_2_8
+
+# Build rule for target.
+4_2_8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 4_2_8
+.PHONY : 4_2_8
+
+# fast build rule for target.
+4_2_8/fast:
+	$(MAKE) -f CMakeFiles\4_2_8.dir\build.make CMakeFiles/4_2_8.dir/build
+.PHONY : 4_2_8/fast
+
+#=============================================================================
+# Target rules for targets named 4_2_9
+
+# Build rule for target.
+4_2_9: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 4_2_9
+.PHONY : 4_2_9
+
+# fast build rule for target.
+4_2_9/fast:
+	$(MAKE) -f CMakeFiles\4_2_9.dir\build.make CMakeFiles/4_2_9.dir/build
+.PHONY : 4_2_9/fast
+
+#=============================================================================
+# Target rules for targets named 2_4_1
+
+# Build rule for target.
+2_4_1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2_4_1
+.PHONY : 2_4_1
+
+# fast build rule for target.
+2_4_1/fast:
+	$(MAKE) -f CMakeFiles\2_4_1.dir\build.make CMakeFiles/2_4_1.dir/build
+.PHONY : 2_4_1/fast
+
+#=============================================================================
+# Target rules for targets named 2_4_5
+
+# Build rule for target.
+2_4_5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 2_4_5
+.PHONY : 2_4_5
+
+# fast build rule for target.
+2_4_5/fast:
+	$(MAKE) -f CMakeFiles\2_4_5.dir\build.make CMakeFiles/2_4_5.dir/build
+.PHONY : 2_4_5/fast
+
+#=============================================================================
+# Target rules for targets named test4
+
+# Build rule for target.
+test4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 test4
+.PHONY : test4
+
+# fast build rule for target.
+test4/fast:
+	$(MAKE) -f CMakeFiles\test4.dir\build.make CMakeFiles/test4.dir/build
+.PHONY : test4/fast
+
+#=============================================================================
+# Target rules for targets named 5_1
+
+# Build rule for target.
+5_1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 5_1
+.PHONY : 5_1
+
+# fast build rule for target.
+5_1/fast:
+	$(MAKE) -f CMakeFiles\5_1.dir\build.make CMakeFiles/5_1.dir/build
+.PHONY : 5_1/fast
+
+#=============================================================================
+# Target rules for targets named 5_2
+
+# Build rule for target.
+5_2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 5_2
+.PHONY : 5_2
+
+# fast build rule for target.
+5_2/fast:
+	$(MAKE) -f CMakeFiles\5_2.dir\build.make CMakeFiles/5_2.dir/build
+.PHONY : 5_2/fast
+
+#=============================================================================
+# Target rules for targets named 5_3
+
+# Build rule for target.
+5_3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 5_3
+.PHONY : 5_3
+
+# fast build rule for target.
+5_3/fast:
+	$(MAKE) -f CMakeFiles\5_3.dir\build.make CMakeFiles/5_3.dir/build
+.PHONY : 5_3/fast
+
+#=============================================================================
+# Target rules for targets named 5_4
+
+# Build rule for target.
+5_4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 5_4
+.PHONY : 5_4
+
+# fast build rule for target.
+5_4/fast:
+	$(MAKE) -f CMakeFiles\5_4.dir\build.make CMakeFiles/5_4.dir/build
+.PHONY : 5_4/fast
+
+#=============================================================================
+# Target rules for targets named 5_5
+
+# Build rule for target.
+5_5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 5_5
+.PHONY : 5_5
+
+# fast build rule for target.
+5_5/fast:
+	$(MAKE) -f CMakeFiles\5_5.dir\build.make CMakeFiles/5_5.dir/build
+.PHONY : 5_5/fast
+
+#=============================================================================
+# Target rules for targets named 5_6
+
+# Build rule for target.
+5_6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 5_6
+.PHONY : 5_6
+
+# fast build rule for target.
+5_6/fast:
+	$(MAKE) -f CMakeFiles\5_6.dir\build.make CMakeFiles/5_6.dir/build
+.PHONY : 5_6/fast
+
+#=============================================================================
+# Target rules for targets named 5_7
+
+# Build rule for target.
+5_7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 5_7
+.PHONY : 5_7
+
+# fast build rule for target.
+5_7/fast:
+	$(MAKE) -f CMakeFiles\5_7.dir\build.make CMakeFiles/5_7.dir/build
+.PHONY : 5_7/fast
+
+#=============================================================================
+# Target rules for targets named 5_8
+
+# Build rule for target.
+5_8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 5_8
+.PHONY : 5_8
+
+# fast build rule for target.
+5_8/fast:
+	$(MAKE) -f CMakeFiles\5_8.dir\build.make CMakeFiles/5_8.dir/build
+.PHONY : 5_8/fast
+
+#=============================================================================
+# Target rules for targets named 5_9
+
+# Build rule for target.
+5_9: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 5_9
+.PHONY : 5_9
+
+# fast build rule for target.
+5_9/fast:
+	$(MAKE) -f CMakeFiles\5_9.dir\build.make CMakeFiles/5_9.dir/build
+.PHONY : 5_9/fast
+
+#=============================================================================
+# Target rules for targets named week1
+
+# Build rule for target.
+week1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 week1
+.PHONY : week1
+
+# fast build rule for target.
+week1/fast:
+	$(MAKE) -f CMakeFiles\week1.dir\build.make CMakeFiles/week1.dir/build
+.PHONY : week1/fast
+
+#=============================================================================
+# Target rules for targets named prac34
+
+# Build rule for target.
+prac34: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac34
+.PHONY : prac34
+
+# fast build rule for target.
+prac34/fast:
+	$(MAKE) -f CMakeFiles\prac34.dir\build.make CMakeFiles/prac34.dir/build
+.PHONY : prac34/fast
+
+#=============================================================================
+# Target rules for targets named prac35
+
+# Build rule for target.
+prac35: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac35
+.PHONY : prac35
+
+# fast build rule for target.
+prac35/fast:
+	$(MAKE) -f CMakeFiles\prac35.dir\build.make CMakeFiles/prac35.dir/build
+.PHONY : prac35/fast
+
+#=============================================================================
+# Target rules for targets named prac36
+
+# Build rule for target.
+prac36: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac36
+.PHONY : prac36
+
+# fast build rule for target.
+prac36/fast:
+	$(MAKE) -f CMakeFiles\prac36.dir\build.make CMakeFiles/prac36.dir/build
+.PHONY : prac36/fast
+
+#=============================================================================
+# Target rules for targets named prac37
+
+# Build rule for target.
+prac37: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac37
+.PHONY : prac37
+
+# fast build rule for target.
+prac37/fast:
+	$(MAKE) -f CMakeFiles\prac37.dir\build.make CMakeFiles/prac37.dir/build
+.PHONY : prac37/fast
+
+#=============================================================================
+# Target rules for targets named prac38
+
+# Build rule for target.
+prac38: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac38
+.PHONY : prac38
+
+# fast build rule for target.
+prac38/fast:
+	$(MAKE) -f CMakeFiles\prac38.dir\build.make CMakeFiles/prac38.dir/build
+.PHONY : prac38/fast
+
+#=============================================================================
+# Target rules for targets named prac39
+
+# Build rule for target.
+prac39: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac39
+.PHONY : prac39
+
+# fast build rule for target.
+prac39/fast:
+	$(MAKE) -f CMakeFiles\prac39.dir\build.make CMakeFiles/prac39.dir/build
+.PHONY : prac39/fast
+
+#=============================================================================
+# Target rules for targets named prac42
+
+# Build rule for target.
+prac42: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac42
+.PHONY : prac42
+
+# fast build rule for target.
+prac42/fast:
+	$(MAKE) -f CMakeFiles\prac42.dir\build.make CMakeFiles/prac42.dir/build
+.PHONY : prac42/fast
+
+#=============================================================================
+# Target rules for targets named prac43
+
+# Build rule for target.
+prac43: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac43
+.PHONY : prac43
+
+# fast build rule for target.
+prac43/fast:
+	$(MAKE) -f CMakeFiles\prac43.dir\build.make CMakeFiles/prac43.dir/build
+.PHONY : prac43/fast
+
+#=============================================================================
+# Target rules for targets named test5
+
+# Build rule for target.
+test5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 test5
+.PHONY : test5
+
+# fast build rule for target.
+test5/fast:
+	$(MAKE) -f CMakeFiles\test5.dir\build.make CMakeFiles/test5.dir/build
+.PHONY : test5/fast
+
+#=============================================================================
+# Target rules for targets named prac48
+
+# Build rule for target.
+prac48: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac48
+.PHONY : prac48
+
+# fast build rule for target.
+prac48/fast:
+	$(MAKE) -f CMakeFiles\prac48.dir\build.make CMakeFiles/prac48.dir/build
+.PHONY : prac48/fast
 
 main.obj: main.c.obj
 
@@ -2100,6 +2620,168 @@ mooc/prac33.c.s:
 	$(MAKE) -f CMakeFiles\prac33.dir\build.make CMakeFiles/prac33.dir/mooc/prac33.c.s
 .PHONY : mooc/prac33.c.s
 
+mooc/prac34.obj: mooc/prac34.c.obj
+
+.PHONY : mooc/prac34.obj
+
+# target to build an object file
+mooc/prac34.c.obj:
+	$(MAKE) -f CMakeFiles\prac34.dir\build.make CMakeFiles/prac34.dir/mooc/prac34.c.obj
+.PHONY : mooc/prac34.c.obj
+
+mooc/prac34.i: mooc/prac34.c.i
+
+.PHONY : mooc/prac34.i
+
+# target to preprocess a source file
+mooc/prac34.c.i:
+	$(MAKE) -f CMakeFiles\prac34.dir\build.make CMakeFiles/prac34.dir/mooc/prac34.c.i
+.PHONY : mooc/prac34.c.i
+
+mooc/prac34.s: mooc/prac34.c.s
+
+.PHONY : mooc/prac34.s
+
+# target to generate assembly for a file
+mooc/prac34.c.s:
+	$(MAKE) -f CMakeFiles\prac34.dir\build.make CMakeFiles/prac34.dir/mooc/prac34.c.s
+.PHONY : mooc/prac34.c.s
+
+mooc/prac35.obj: mooc/prac35.c.obj
+
+.PHONY : mooc/prac35.obj
+
+# target to build an object file
+mooc/prac35.c.obj:
+	$(MAKE) -f CMakeFiles\prac35.dir\build.make CMakeFiles/prac35.dir/mooc/prac35.c.obj
+.PHONY : mooc/prac35.c.obj
+
+mooc/prac35.i: mooc/prac35.c.i
+
+.PHONY : mooc/prac35.i
+
+# target to preprocess a source file
+mooc/prac35.c.i:
+	$(MAKE) -f CMakeFiles\prac35.dir\build.make CMakeFiles/prac35.dir/mooc/prac35.c.i
+.PHONY : mooc/prac35.c.i
+
+mooc/prac35.s: mooc/prac35.c.s
+
+.PHONY : mooc/prac35.s
+
+# target to generate assembly for a file
+mooc/prac35.c.s:
+	$(MAKE) -f CMakeFiles\prac35.dir\build.make CMakeFiles/prac35.dir/mooc/prac35.c.s
+.PHONY : mooc/prac35.c.s
+
+mooc/prac36.obj: mooc/prac36.c.obj
+
+.PHONY : mooc/prac36.obj
+
+# target to build an object file
+mooc/prac36.c.obj:
+	$(MAKE) -f CMakeFiles\prac36.dir\build.make CMakeFiles/prac36.dir/mooc/prac36.c.obj
+.PHONY : mooc/prac36.c.obj
+
+mooc/prac36.i: mooc/prac36.c.i
+
+.PHONY : mooc/prac36.i
+
+# target to preprocess a source file
+mooc/prac36.c.i:
+	$(MAKE) -f CMakeFiles\prac36.dir\build.make CMakeFiles/prac36.dir/mooc/prac36.c.i
+.PHONY : mooc/prac36.c.i
+
+mooc/prac36.s: mooc/prac36.c.s
+
+.PHONY : mooc/prac36.s
+
+# target to generate assembly for a file
+mooc/prac36.c.s:
+	$(MAKE) -f CMakeFiles\prac36.dir\build.make CMakeFiles/prac36.dir/mooc/prac36.c.s
+.PHONY : mooc/prac36.c.s
+
+mooc/prac37.obj: mooc/prac37.c.obj
+
+.PHONY : mooc/prac37.obj
+
+# target to build an object file
+mooc/prac37.c.obj:
+	$(MAKE) -f CMakeFiles\prac37.dir\build.make CMakeFiles/prac37.dir/mooc/prac37.c.obj
+.PHONY : mooc/prac37.c.obj
+
+mooc/prac37.i: mooc/prac37.c.i
+
+.PHONY : mooc/prac37.i
+
+# target to preprocess a source file
+mooc/prac37.c.i:
+	$(MAKE) -f CMakeFiles\prac37.dir\build.make CMakeFiles/prac37.dir/mooc/prac37.c.i
+.PHONY : mooc/prac37.c.i
+
+mooc/prac37.s: mooc/prac37.c.s
+
+.PHONY : mooc/prac37.s
+
+# target to generate assembly for a file
+mooc/prac37.c.s:
+	$(MAKE) -f CMakeFiles\prac37.dir\build.make CMakeFiles/prac37.dir/mooc/prac37.c.s
+.PHONY : mooc/prac37.c.s
+
+mooc/prac38.obj: mooc/prac38.c.obj
+
+.PHONY : mooc/prac38.obj
+
+# target to build an object file
+mooc/prac38.c.obj:
+	$(MAKE) -f CMakeFiles\prac38.dir\build.make CMakeFiles/prac38.dir/mooc/prac38.c.obj
+.PHONY : mooc/prac38.c.obj
+
+mooc/prac38.i: mooc/prac38.c.i
+
+.PHONY : mooc/prac38.i
+
+# target to preprocess a source file
+mooc/prac38.c.i:
+	$(MAKE) -f CMakeFiles\prac38.dir\build.make CMakeFiles/prac38.dir/mooc/prac38.c.i
+.PHONY : mooc/prac38.c.i
+
+mooc/prac38.s: mooc/prac38.c.s
+
+.PHONY : mooc/prac38.s
+
+# target to generate assembly for a file
+mooc/prac38.c.s:
+	$(MAKE) -f CMakeFiles\prac38.dir\build.make CMakeFiles/prac38.dir/mooc/prac38.c.s
+.PHONY : mooc/prac38.c.s
+
+mooc/prac39.obj: mooc/prac39.c.obj
+
+.PHONY : mooc/prac39.obj
+
+# target to build an object file
+mooc/prac39.c.obj:
+	$(MAKE) -f CMakeFiles\prac39.dir\build.make CMakeFiles/prac39.dir/mooc/prac39.c.obj
+.PHONY : mooc/prac39.c.obj
+
+mooc/prac39.i: mooc/prac39.c.i
+
+.PHONY : mooc/prac39.i
+
+# target to preprocess a source file
+mooc/prac39.c.i:
+	$(MAKE) -f CMakeFiles\prac39.dir\build.make CMakeFiles/prac39.dir/mooc/prac39.c.i
+.PHONY : mooc/prac39.c.i
+
+mooc/prac39.s: mooc/prac39.c.s
+
+.PHONY : mooc/prac39.s
+
+# target to generate assembly for a file
+mooc/prac39.c.s:
+	$(MAKE) -f CMakeFiles\prac39.dir\build.make CMakeFiles/prac39.dir/mooc/prac39.c.s
+.PHONY : mooc/prac39.c.s
+
 mooc/prac4.obj: mooc/prac4.c.obj
 
 .PHONY : mooc/prac4.obj
@@ -2126,6 +2808,249 @@ mooc/prac4.s: mooc/prac4.c.s
 mooc/prac4.c.s:
 	$(MAKE) -f CMakeFiles\prac4.dir\build.make CMakeFiles/prac4.dir/mooc/prac4.c.s
 .PHONY : mooc/prac4.c.s
+
+mooc/prac40.obj: mooc/prac40.c.obj
+
+.PHONY : mooc/prac40.obj
+
+# target to build an object file
+mooc/prac40.c.obj:
+	$(MAKE) -f CMakeFiles\prac40.dir\build.make CMakeFiles/prac40.dir/mooc/prac40.c.obj
+.PHONY : mooc/prac40.c.obj
+
+mooc/prac40.i: mooc/prac40.c.i
+
+.PHONY : mooc/prac40.i
+
+# target to preprocess a source file
+mooc/prac40.c.i:
+	$(MAKE) -f CMakeFiles\prac40.dir\build.make CMakeFiles/prac40.dir/mooc/prac40.c.i
+.PHONY : mooc/prac40.c.i
+
+mooc/prac40.s: mooc/prac40.c.s
+
+.PHONY : mooc/prac40.s
+
+# target to generate assembly for a file
+mooc/prac40.c.s:
+	$(MAKE) -f CMakeFiles\prac40.dir\build.make CMakeFiles/prac40.dir/mooc/prac40.c.s
+.PHONY : mooc/prac40.c.s
+
+mooc/prac41.obj: mooc/prac41.c.obj
+
+.PHONY : mooc/prac41.obj
+
+# target to build an object file
+mooc/prac41.c.obj:
+	$(MAKE) -f CMakeFiles\prac41.dir\build.make CMakeFiles/prac41.dir/mooc/prac41.c.obj
+.PHONY : mooc/prac41.c.obj
+
+mooc/prac41.i: mooc/prac41.c.i
+
+.PHONY : mooc/prac41.i
+
+# target to preprocess a source file
+mooc/prac41.c.i:
+	$(MAKE) -f CMakeFiles\prac41.dir\build.make CMakeFiles/prac41.dir/mooc/prac41.c.i
+.PHONY : mooc/prac41.c.i
+
+mooc/prac41.s: mooc/prac41.c.s
+
+.PHONY : mooc/prac41.s
+
+# target to generate assembly for a file
+mooc/prac41.c.s:
+	$(MAKE) -f CMakeFiles\prac41.dir\build.make CMakeFiles/prac41.dir/mooc/prac41.c.s
+.PHONY : mooc/prac41.c.s
+
+mooc/prac42.obj: mooc/prac42.c.obj
+
+.PHONY : mooc/prac42.obj
+
+# target to build an object file
+mooc/prac42.c.obj:
+	$(MAKE) -f CMakeFiles\prac42.dir\build.make CMakeFiles/prac42.dir/mooc/prac42.c.obj
+.PHONY : mooc/prac42.c.obj
+
+mooc/prac42.i: mooc/prac42.c.i
+
+.PHONY : mooc/prac42.i
+
+# target to preprocess a source file
+mooc/prac42.c.i:
+	$(MAKE) -f CMakeFiles\prac42.dir\build.make CMakeFiles/prac42.dir/mooc/prac42.c.i
+.PHONY : mooc/prac42.c.i
+
+mooc/prac42.s: mooc/prac42.c.s
+
+.PHONY : mooc/prac42.s
+
+# target to generate assembly for a file
+mooc/prac42.c.s:
+	$(MAKE) -f CMakeFiles\prac42.dir\build.make CMakeFiles/prac42.dir/mooc/prac42.c.s
+.PHONY : mooc/prac42.c.s
+
+mooc/prac43.obj: mooc/prac43.c.obj
+
+.PHONY : mooc/prac43.obj
+
+# target to build an object file
+mooc/prac43.c.obj:
+	$(MAKE) -f CMakeFiles\prac43.dir\build.make CMakeFiles/prac43.dir/mooc/prac43.c.obj
+.PHONY : mooc/prac43.c.obj
+
+mooc/prac43.i: mooc/prac43.c.i
+
+.PHONY : mooc/prac43.i
+
+# target to preprocess a source file
+mooc/prac43.c.i:
+	$(MAKE) -f CMakeFiles\prac43.dir\build.make CMakeFiles/prac43.dir/mooc/prac43.c.i
+.PHONY : mooc/prac43.c.i
+
+mooc/prac43.s: mooc/prac43.c.s
+
+.PHONY : mooc/prac43.s
+
+# target to generate assembly for a file
+mooc/prac43.c.s:
+	$(MAKE) -f CMakeFiles\prac43.dir\build.make CMakeFiles/prac43.dir/mooc/prac43.c.s
+.PHONY : mooc/prac43.c.s
+
+mooc/prac44.obj: mooc/prac44.c.obj
+
+.PHONY : mooc/prac44.obj
+
+# target to build an object file
+mooc/prac44.c.obj:
+	$(MAKE) -f CMakeFiles\prac44.dir\build.make CMakeFiles/prac44.dir/mooc/prac44.c.obj
+.PHONY : mooc/prac44.c.obj
+
+mooc/prac44.i: mooc/prac44.c.i
+
+.PHONY : mooc/prac44.i
+
+# target to preprocess a source file
+mooc/prac44.c.i:
+	$(MAKE) -f CMakeFiles\prac44.dir\build.make CMakeFiles/prac44.dir/mooc/prac44.c.i
+.PHONY : mooc/prac44.c.i
+
+mooc/prac44.s: mooc/prac44.c.s
+
+.PHONY : mooc/prac44.s
+
+# target to generate assembly for a file
+mooc/prac44.c.s:
+	$(MAKE) -f CMakeFiles\prac44.dir\build.make CMakeFiles/prac44.dir/mooc/prac44.c.s
+.PHONY : mooc/prac44.c.s
+
+mooc/prac45.obj: mooc/prac45.c.obj
+
+.PHONY : mooc/prac45.obj
+
+# target to build an object file
+mooc/prac45.c.obj:
+	$(MAKE) -f CMakeFiles\prac45.dir\build.make CMakeFiles/prac45.dir/mooc/prac45.c.obj
+.PHONY : mooc/prac45.c.obj
+
+mooc/prac45.i: mooc/prac45.c.i
+
+.PHONY : mooc/prac45.i
+
+# target to preprocess a source file
+mooc/prac45.c.i:
+	$(MAKE) -f CMakeFiles\prac45.dir\build.make CMakeFiles/prac45.dir/mooc/prac45.c.i
+.PHONY : mooc/prac45.c.i
+
+mooc/prac45.s: mooc/prac45.c.s
+
+.PHONY : mooc/prac45.s
+
+# target to generate assembly for a file
+mooc/prac45.c.s:
+	$(MAKE) -f CMakeFiles\prac45.dir\build.make CMakeFiles/prac45.dir/mooc/prac45.c.s
+.PHONY : mooc/prac45.c.s
+
+mooc/prac46.obj: mooc/prac46.c.obj
+
+.PHONY : mooc/prac46.obj
+
+# target to build an object file
+mooc/prac46.c.obj:
+	$(MAKE) -f CMakeFiles\prac46.dir\build.make CMakeFiles/prac46.dir/mooc/prac46.c.obj
+.PHONY : mooc/prac46.c.obj
+
+mooc/prac46.i: mooc/prac46.c.i
+
+.PHONY : mooc/prac46.i
+
+# target to preprocess a source file
+mooc/prac46.c.i:
+	$(MAKE) -f CMakeFiles\prac46.dir\build.make CMakeFiles/prac46.dir/mooc/prac46.c.i
+.PHONY : mooc/prac46.c.i
+
+mooc/prac46.s: mooc/prac46.c.s
+
+.PHONY : mooc/prac46.s
+
+# target to generate assembly for a file
+mooc/prac46.c.s:
+	$(MAKE) -f CMakeFiles\prac46.dir\build.make CMakeFiles/prac46.dir/mooc/prac46.c.s
+.PHONY : mooc/prac46.c.s
+
+mooc/prac47.obj: mooc/prac47.c.obj
+
+.PHONY : mooc/prac47.obj
+
+# target to build an object file
+mooc/prac47.c.obj:
+	$(MAKE) -f CMakeFiles\prac47.dir\build.make CMakeFiles/prac47.dir/mooc/prac47.c.obj
+.PHONY : mooc/prac47.c.obj
+
+mooc/prac47.i: mooc/prac47.c.i
+
+.PHONY : mooc/prac47.i
+
+# target to preprocess a source file
+mooc/prac47.c.i:
+	$(MAKE) -f CMakeFiles\prac47.dir\build.make CMakeFiles/prac47.dir/mooc/prac47.c.i
+.PHONY : mooc/prac47.c.i
+
+mooc/prac47.s: mooc/prac47.c.s
+
+.PHONY : mooc/prac47.s
+
+# target to generate assembly for a file
+mooc/prac47.c.s:
+	$(MAKE) -f CMakeFiles\prac47.dir\build.make CMakeFiles/prac47.dir/mooc/prac47.c.s
+.PHONY : mooc/prac47.c.s
+
+mooc/prac48.obj: mooc/prac48.c.obj
+
+.PHONY : mooc/prac48.obj
+
+# target to build an object file
+mooc/prac48.c.obj:
+	$(MAKE) -f CMakeFiles\prac48.dir\build.make CMakeFiles/prac48.dir/mooc/prac48.c.obj
+.PHONY : mooc/prac48.c.obj
+
+mooc/prac48.i: mooc/prac48.c.i
+
+.PHONY : mooc/prac48.i
+
+# target to preprocess a source file
+mooc/prac48.c.i:
+	$(MAKE) -f CMakeFiles\prac48.dir\build.make CMakeFiles/prac48.dir/mooc/prac48.c.i
+.PHONY : mooc/prac48.c.i
+
+mooc/prac48.s: mooc/prac48.c.s
+
+.PHONY : mooc/prac48.s
+
+# target to generate assembly for a file
+mooc/prac48.c.s:
+	$(MAKE) -f CMakeFiles\prac48.dir\build.make CMakeFiles/prac48.dir/mooc/prac48.c.s
+.PHONY : mooc/prac48.c.s
 
 mooc/prac5.obj: mooc/prac5.c.obj
 
@@ -2262,6 +3187,33 @@ mooc/prac9.c.s:
 	$(MAKE) -f CMakeFiles\prac9.dir\build.make CMakeFiles/prac9.dir/mooc/prac9.c.s
 .PHONY : mooc/prac9.c.s
 
+mooc_assignment/week1.obj: mooc_assignment/week1.c.obj
+
+.PHONY : mooc_assignment/week1.obj
+
+# target to build an object file
+mooc_assignment/week1.c.obj:
+	$(MAKE) -f CMakeFiles\week1.dir\build.make CMakeFiles/week1.dir/mooc_assignment/week1.c.obj
+.PHONY : mooc_assignment/week1.c.obj
+
+mooc_assignment/week1.i: mooc_assignment/week1.c.i
+
+.PHONY : mooc_assignment/week1.i
+
+# target to preprocess a source file
+mooc_assignment/week1.c.i:
+	$(MAKE) -f CMakeFiles\week1.dir\build.make CMakeFiles/week1.dir/mooc_assignment/week1.c.i
+.PHONY : mooc_assignment/week1.c.i
+
+mooc_assignment/week1.s: mooc_assignment/week1.c.s
+
+.PHONY : mooc_assignment/week1.s
+
+# target to generate assembly for a file
+mooc_assignment/week1.c.s:
+	$(MAKE) -f CMakeFiles\week1.dir\build.make CMakeFiles/week1.dir/mooc_assignment/week1.c.s
+.PHONY : mooc_assignment/week1.c.s
+
 test/test1.obj: test/test1.c.obj
 
 .PHONY : test/test1.obj
@@ -2315,6 +3267,87 @@ test/test2.s: test/test2.c.s
 test/test2.c.s:
 	$(MAKE) -f CMakeFiles\test2.dir\build.make CMakeFiles/test2.dir/test/test2.c.s
 .PHONY : test/test2.c.s
+
+test/test3.obj: test/test3.c.obj
+
+.PHONY : test/test3.obj
+
+# target to build an object file
+test/test3.c.obj:
+	$(MAKE) -f CMakeFiles\test3.dir\build.make CMakeFiles/test3.dir/test/test3.c.obj
+.PHONY : test/test3.c.obj
+
+test/test3.i: test/test3.c.i
+
+.PHONY : test/test3.i
+
+# target to preprocess a source file
+test/test3.c.i:
+	$(MAKE) -f CMakeFiles\test3.dir\build.make CMakeFiles/test3.dir/test/test3.c.i
+.PHONY : test/test3.c.i
+
+test/test3.s: test/test3.c.s
+
+.PHONY : test/test3.s
+
+# target to generate assembly for a file
+test/test3.c.s:
+	$(MAKE) -f CMakeFiles\test3.dir\build.make CMakeFiles/test3.dir/test/test3.c.s
+.PHONY : test/test3.c.s
+
+test/test4.obj: test/test4.c.obj
+
+.PHONY : test/test4.obj
+
+# target to build an object file
+test/test4.c.obj:
+	$(MAKE) -f CMakeFiles\test4.dir\build.make CMakeFiles/test4.dir/test/test4.c.obj
+.PHONY : test/test4.c.obj
+
+test/test4.i: test/test4.c.i
+
+.PHONY : test/test4.i
+
+# target to preprocess a source file
+test/test4.c.i:
+	$(MAKE) -f CMakeFiles\test4.dir\build.make CMakeFiles/test4.dir/test/test4.c.i
+.PHONY : test/test4.c.i
+
+test/test4.s: test/test4.c.s
+
+.PHONY : test/test4.s
+
+# target to generate assembly for a file
+test/test4.c.s:
+	$(MAKE) -f CMakeFiles\test4.dir\build.make CMakeFiles/test4.dir/test/test4.c.s
+.PHONY : test/test4.c.s
+
+test/test5.obj: test/test5.c.obj
+
+.PHONY : test/test5.obj
+
+# target to build an object file
+test/test5.c.obj:
+	$(MAKE) -f CMakeFiles\test5.dir\build.make CMakeFiles/test5.dir/test/test5.c.obj
+.PHONY : test/test5.c.obj
+
+test/test5.i: test/test5.c.i
+
+.PHONY : test/test5.i
+
+# target to preprocess a source file
+test/test5.c.i:
+	$(MAKE) -f CMakeFiles\test5.dir\build.make CMakeFiles/test5.dir/test/test5.c.i
+.PHONY : test/test5.c.i
+
+test/test5.s: test/test5.c.s
+
+.PHONY : test/test5.s
+
+# target to generate assembly for a file
+test/test5.c.s:
+	$(MAKE) -f CMakeFiles\test5.dir\build.make CMakeFiles/test5.dir/test/test5.c.s
+.PHONY : test/test5.c.s
 
 zju_experiment/1_1.obj: zju_experiment/1_1.c.obj
 
@@ -3153,6 +4186,33 @@ zju_experiment/2_3_7.c.s:
 	$(MAKE) -f CMakeFiles\2_3_7.dir\build.make CMakeFiles/2_3_7.dir/zju_experiment/2_3_7.c.s
 .PHONY : zju_experiment/2_3_7.c.s
 
+zju_experiment/2_4_1.obj: zju_experiment/2_4_1.c.obj
+
+.PHONY : zju_experiment/2_4_1.obj
+
+# target to build an object file
+zju_experiment/2_4_1.c.obj:
+	$(MAKE) -f CMakeFiles\2_4_1.dir\build.make CMakeFiles/2_4_1.dir/zju_experiment/2_4_1.c.obj
+.PHONY : zju_experiment/2_4_1.c.obj
+
+zju_experiment/2_4_1.i: zju_experiment/2_4_1.c.i
+
+.PHONY : zju_experiment/2_4_1.i
+
+# target to preprocess a source file
+zju_experiment/2_4_1.c.i:
+	$(MAKE) -f CMakeFiles\2_4_1.dir\build.make CMakeFiles/2_4_1.dir/zju_experiment/2_4_1.c.i
+.PHONY : zju_experiment/2_4_1.c.i
+
+zju_experiment/2_4_1.s: zju_experiment/2_4_1.c.s
+
+.PHONY : zju_experiment/2_4_1.s
+
+# target to generate assembly for a file
+zju_experiment/2_4_1.c.s:
+	$(MAKE) -f CMakeFiles\2_4_1.dir\build.make CMakeFiles/2_4_1.dir/zju_experiment/2_4_1.c.s
+.PHONY : zju_experiment/2_4_1.c.s
+
 zju_experiment/2_4_2.obj: zju_experiment/2_4_2.c.obj
 
 .PHONY : zju_experiment/2_4_2.obj
@@ -3260,6 +4320,33 @@ zju_experiment/2_4_5.s: zju_experiment/2_4_5.c.s
 zju_experiment/2_4_5.c.s:
 	$(MAKE) -f CMakeFiles\2_4_5.dir\build.make CMakeFiles/2_4_5.dir/zju_experiment/2_4_5.c.s
 .PHONY : zju_experiment/2_4_5.c.s
+
+zju_experiment/2_4_6.obj: zju_experiment/2_4_6.c.obj
+
+.PHONY : zju_experiment/2_4_6.obj
+
+# target to build an object file
+zju_experiment/2_4_6.c.obj:
+	$(MAKE) -f CMakeFiles\2_4_6.dir\build.make CMakeFiles/2_4_6.dir/zju_experiment/2_4_6.c.obj
+.PHONY : zju_experiment/2_4_6.c.obj
+
+zju_experiment/2_4_6.i: zju_experiment/2_4_6.c.i
+
+.PHONY : zju_experiment/2_4_6.i
+
+# target to preprocess a source file
+zju_experiment/2_4_6.c.i:
+	$(MAKE) -f CMakeFiles\2_4_6.dir\build.make CMakeFiles/2_4_6.dir/zju_experiment/2_4_6.c.i
+.PHONY : zju_experiment/2_4_6.c.i
+
+zju_experiment/2_4_6.s: zju_experiment/2_4_6.c.s
+
+.PHONY : zju_experiment/2_4_6.s
+
+# target to generate assembly for a file
+zju_experiment/2_4_6.c.s:
+	$(MAKE) -f CMakeFiles\2_4_6.dir\build.make CMakeFiles/2_4_6.dir/zju_experiment/2_4_6.c.s
+.PHONY : zju_experiment/2_4_6.c.s
 
 zju_experiment/2_4_7.obj: zju_experiment/2_4_7.c.obj
 
@@ -3909,6 +4996,519 @@ zju_experiment/4_1_9.c.s:
 	$(MAKE) -f CMakeFiles\4_1_9.dir\build.make CMakeFiles/4_1_9.dir/zju_experiment/4_1_9.c.s
 .PHONY : zju_experiment/4_1_9.c.s
 
+zju_experiment/4_2_2.obj: zju_experiment/4_2_2.c.obj
+
+.PHONY : zju_experiment/4_2_2.obj
+
+# target to build an object file
+zju_experiment/4_2_2.c.obj:
+	$(MAKE) -f CMakeFiles\4_2_2.dir\build.make CMakeFiles/4_2_2.dir/zju_experiment/4_2_2.c.obj
+.PHONY : zju_experiment/4_2_2.c.obj
+
+zju_experiment/4_2_2.i: zju_experiment/4_2_2.c.i
+
+.PHONY : zju_experiment/4_2_2.i
+
+# target to preprocess a source file
+zju_experiment/4_2_2.c.i:
+	$(MAKE) -f CMakeFiles\4_2_2.dir\build.make CMakeFiles/4_2_2.dir/zju_experiment/4_2_2.c.i
+.PHONY : zju_experiment/4_2_2.c.i
+
+zju_experiment/4_2_2.s: zju_experiment/4_2_2.c.s
+
+.PHONY : zju_experiment/4_2_2.s
+
+# target to generate assembly for a file
+zju_experiment/4_2_2.c.s:
+	$(MAKE) -f CMakeFiles\4_2_2.dir\build.make CMakeFiles/4_2_2.dir/zju_experiment/4_2_2.c.s
+.PHONY : zju_experiment/4_2_2.c.s
+
+zju_experiment/4_2_3.obj: zju_experiment/4_2_3.c.obj
+
+.PHONY : zju_experiment/4_2_3.obj
+
+# target to build an object file
+zju_experiment/4_2_3.c.obj:
+	$(MAKE) -f CMakeFiles\4_2_3.dir\build.make CMakeFiles/4_2_3.dir/zju_experiment/4_2_3.c.obj
+.PHONY : zju_experiment/4_2_3.c.obj
+
+zju_experiment/4_2_3.i: zju_experiment/4_2_3.c.i
+
+.PHONY : zju_experiment/4_2_3.i
+
+# target to preprocess a source file
+zju_experiment/4_2_3.c.i:
+	$(MAKE) -f CMakeFiles\4_2_3.dir\build.make CMakeFiles/4_2_3.dir/zju_experiment/4_2_3.c.i
+.PHONY : zju_experiment/4_2_3.c.i
+
+zju_experiment/4_2_3.s: zju_experiment/4_2_3.c.s
+
+.PHONY : zju_experiment/4_2_3.s
+
+# target to generate assembly for a file
+zju_experiment/4_2_3.c.s:
+	$(MAKE) -f CMakeFiles\4_2_3.dir\build.make CMakeFiles/4_2_3.dir/zju_experiment/4_2_3.c.s
+.PHONY : zju_experiment/4_2_3.c.s
+
+zju_experiment/4_2_4.obj: zju_experiment/4_2_4.c.obj
+
+.PHONY : zju_experiment/4_2_4.obj
+
+# target to build an object file
+zju_experiment/4_2_4.c.obj:
+	$(MAKE) -f CMakeFiles\4_2_4.dir\build.make CMakeFiles/4_2_4.dir/zju_experiment/4_2_4.c.obj
+.PHONY : zju_experiment/4_2_4.c.obj
+
+zju_experiment/4_2_4.i: zju_experiment/4_2_4.c.i
+
+.PHONY : zju_experiment/4_2_4.i
+
+# target to preprocess a source file
+zju_experiment/4_2_4.c.i:
+	$(MAKE) -f CMakeFiles\4_2_4.dir\build.make CMakeFiles/4_2_4.dir/zju_experiment/4_2_4.c.i
+.PHONY : zju_experiment/4_2_4.c.i
+
+zju_experiment/4_2_4.s: zju_experiment/4_2_4.c.s
+
+.PHONY : zju_experiment/4_2_4.s
+
+# target to generate assembly for a file
+zju_experiment/4_2_4.c.s:
+	$(MAKE) -f CMakeFiles\4_2_4.dir\build.make CMakeFiles/4_2_4.dir/zju_experiment/4_2_4.c.s
+.PHONY : zju_experiment/4_2_4.c.s
+
+zju_experiment/4_2_5.obj: zju_experiment/4_2_5.c.obj
+
+.PHONY : zju_experiment/4_2_5.obj
+
+# target to build an object file
+zju_experiment/4_2_5.c.obj:
+	$(MAKE) -f CMakeFiles\4_2_5.dir\build.make CMakeFiles/4_2_5.dir/zju_experiment/4_2_5.c.obj
+.PHONY : zju_experiment/4_2_5.c.obj
+
+zju_experiment/4_2_5.i: zju_experiment/4_2_5.c.i
+
+.PHONY : zju_experiment/4_2_5.i
+
+# target to preprocess a source file
+zju_experiment/4_2_5.c.i:
+	$(MAKE) -f CMakeFiles\4_2_5.dir\build.make CMakeFiles/4_2_5.dir/zju_experiment/4_2_5.c.i
+.PHONY : zju_experiment/4_2_5.c.i
+
+zju_experiment/4_2_5.s: zju_experiment/4_2_5.c.s
+
+.PHONY : zju_experiment/4_2_5.s
+
+# target to generate assembly for a file
+zju_experiment/4_2_5.c.s:
+	$(MAKE) -f CMakeFiles\4_2_5.dir\build.make CMakeFiles/4_2_5.dir/zju_experiment/4_2_5.c.s
+.PHONY : zju_experiment/4_2_5.c.s
+
+zju_experiment/4_2_6.obj: zju_experiment/4_2_6.c.obj
+
+.PHONY : zju_experiment/4_2_6.obj
+
+# target to build an object file
+zju_experiment/4_2_6.c.obj:
+	$(MAKE) -f CMakeFiles\4_2_6.dir\build.make CMakeFiles/4_2_6.dir/zju_experiment/4_2_6.c.obj
+.PHONY : zju_experiment/4_2_6.c.obj
+
+zju_experiment/4_2_6.i: zju_experiment/4_2_6.c.i
+
+.PHONY : zju_experiment/4_2_6.i
+
+# target to preprocess a source file
+zju_experiment/4_2_6.c.i:
+	$(MAKE) -f CMakeFiles\4_2_6.dir\build.make CMakeFiles/4_2_6.dir/zju_experiment/4_2_6.c.i
+.PHONY : zju_experiment/4_2_6.c.i
+
+zju_experiment/4_2_6.s: zju_experiment/4_2_6.c.s
+
+.PHONY : zju_experiment/4_2_6.s
+
+# target to generate assembly for a file
+zju_experiment/4_2_6.c.s:
+	$(MAKE) -f CMakeFiles\4_2_6.dir\build.make CMakeFiles/4_2_6.dir/zju_experiment/4_2_6.c.s
+.PHONY : zju_experiment/4_2_6.c.s
+
+zju_experiment/4_2_7.obj: zju_experiment/4_2_7.c.obj
+
+.PHONY : zju_experiment/4_2_7.obj
+
+# target to build an object file
+zju_experiment/4_2_7.c.obj:
+	$(MAKE) -f CMakeFiles\4_2_7.dir\build.make CMakeFiles/4_2_7.dir/zju_experiment/4_2_7.c.obj
+.PHONY : zju_experiment/4_2_7.c.obj
+
+zju_experiment/4_2_7.i: zju_experiment/4_2_7.c.i
+
+.PHONY : zju_experiment/4_2_7.i
+
+# target to preprocess a source file
+zju_experiment/4_2_7.c.i:
+	$(MAKE) -f CMakeFiles\4_2_7.dir\build.make CMakeFiles/4_2_7.dir/zju_experiment/4_2_7.c.i
+.PHONY : zju_experiment/4_2_7.c.i
+
+zju_experiment/4_2_7.s: zju_experiment/4_2_7.c.s
+
+.PHONY : zju_experiment/4_2_7.s
+
+# target to generate assembly for a file
+zju_experiment/4_2_7.c.s:
+	$(MAKE) -f CMakeFiles\4_2_7.dir\build.make CMakeFiles/4_2_7.dir/zju_experiment/4_2_7.c.s
+.PHONY : zju_experiment/4_2_7.c.s
+
+zju_experiment/4_2_8.obj: zju_experiment/4_2_8.c.obj
+
+.PHONY : zju_experiment/4_2_8.obj
+
+# target to build an object file
+zju_experiment/4_2_8.c.obj:
+	$(MAKE) -f CMakeFiles\4_2_8.dir\build.make CMakeFiles/4_2_8.dir/zju_experiment/4_2_8.c.obj
+.PHONY : zju_experiment/4_2_8.c.obj
+
+zju_experiment/4_2_8.i: zju_experiment/4_2_8.c.i
+
+.PHONY : zju_experiment/4_2_8.i
+
+# target to preprocess a source file
+zju_experiment/4_2_8.c.i:
+	$(MAKE) -f CMakeFiles\4_2_8.dir\build.make CMakeFiles/4_2_8.dir/zju_experiment/4_2_8.c.i
+.PHONY : zju_experiment/4_2_8.c.i
+
+zju_experiment/4_2_8.s: zju_experiment/4_2_8.c.s
+
+.PHONY : zju_experiment/4_2_8.s
+
+# target to generate assembly for a file
+zju_experiment/4_2_8.c.s:
+	$(MAKE) -f CMakeFiles\4_2_8.dir\build.make CMakeFiles/4_2_8.dir/zju_experiment/4_2_8.c.s
+.PHONY : zju_experiment/4_2_8.c.s
+
+zju_experiment/4_2_9.obj: zju_experiment/4_2_9.c.obj
+
+.PHONY : zju_experiment/4_2_9.obj
+
+# target to build an object file
+zju_experiment/4_2_9.c.obj:
+	$(MAKE) -f CMakeFiles\4_2_9.dir\build.make CMakeFiles/4_2_9.dir/zju_experiment/4_2_9.c.obj
+.PHONY : zju_experiment/4_2_9.c.obj
+
+zju_experiment/4_2_9.i: zju_experiment/4_2_9.c.i
+
+.PHONY : zju_experiment/4_2_9.i
+
+# target to preprocess a source file
+zju_experiment/4_2_9.c.i:
+	$(MAKE) -f CMakeFiles\4_2_9.dir\build.make CMakeFiles/4_2_9.dir/zju_experiment/4_2_9.c.i
+.PHONY : zju_experiment/4_2_9.c.i
+
+zju_experiment/4_2_9.s: zju_experiment/4_2_9.c.s
+
+.PHONY : zju_experiment/4_2_9.s
+
+# target to generate assembly for a file
+zju_experiment/4_2_9.c.s:
+	$(MAKE) -f CMakeFiles\4_2_9.dir\build.make CMakeFiles/4_2_9.dir/zju_experiment/4_2_9.c.s
+.PHONY : zju_experiment/4_2_9.c.s
+
+zju_experiment/5_1.obj: zju_experiment/5_1.c.obj
+
+.PHONY : zju_experiment/5_1.obj
+
+# target to build an object file
+zju_experiment/5_1.c.obj:
+	$(MAKE) -f CMakeFiles\5_1.dir\build.make CMakeFiles/5_1.dir/zju_experiment/5_1.c.obj
+.PHONY : zju_experiment/5_1.c.obj
+
+zju_experiment/5_1.i: zju_experiment/5_1.c.i
+
+.PHONY : zju_experiment/5_1.i
+
+# target to preprocess a source file
+zju_experiment/5_1.c.i:
+	$(MAKE) -f CMakeFiles\5_1.dir\build.make CMakeFiles/5_1.dir/zju_experiment/5_1.c.i
+.PHONY : zju_experiment/5_1.c.i
+
+zju_experiment/5_1.s: zju_experiment/5_1.c.s
+
+.PHONY : zju_experiment/5_1.s
+
+# target to generate assembly for a file
+zju_experiment/5_1.c.s:
+	$(MAKE) -f CMakeFiles\5_1.dir\build.make CMakeFiles/5_1.dir/zju_experiment/5_1.c.s
+.PHONY : zju_experiment/5_1.c.s
+
+zju_experiment/5_10.obj: zju_experiment/5_10.c.obj
+
+.PHONY : zju_experiment/5_10.obj
+
+# target to build an object file
+zju_experiment/5_10.c.obj:
+	$(MAKE) -f CMakeFiles\5_10.dir\build.make CMakeFiles/5_10.dir/zju_experiment/5_10.c.obj
+.PHONY : zju_experiment/5_10.c.obj
+
+zju_experiment/5_10.i: zju_experiment/5_10.c.i
+
+.PHONY : zju_experiment/5_10.i
+
+# target to preprocess a source file
+zju_experiment/5_10.c.i:
+	$(MAKE) -f CMakeFiles\5_10.dir\build.make CMakeFiles/5_10.dir/zju_experiment/5_10.c.i
+.PHONY : zju_experiment/5_10.c.i
+
+zju_experiment/5_10.s: zju_experiment/5_10.c.s
+
+.PHONY : zju_experiment/5_10.s
+
+# target to generate assembly for a file
+zju_experiment/5_10.c.s:
+	$(MAKE) -f CMakeFiles\5_10.dir\build.make CMakeFiles/5_10.dir/zju_experiment/5_10.c.s
+.PHONY : zju_experiment/5_10.c.s
+
+zju_experiment/5_11.obj: zju_experiment/5_11.c.obj
+
+.PHONY : zju_experiment/5_11.obj
+
+# target to build an object file
+zju_experiment/5_11.c.obj:
+	$(MAKE) -f CMakeFiles\5_11.dir\build.make CMakeFiles/5_11.dir/zju_experiment/5_11.c.obj
+.PHONY : zju_experiment/5_11.c.obj
+
+zju_experiment/5_11.i: zju_experiment/5_11.c.i
+
+.PHONY : zju_experiment/5_11.i
+
+# target to preprocess a source file
+zju_experiment/5_11.c.i:
+	$(MAKE) -f CMakeFiles\5_11.dir\build.make CMakeFiles/5_11.dir/zju_experiment/5_11.c.i
+.PHONY : zju_experiment/5_11.c.i
+
+zju_experiment/5_11.s: zju_experiment/5_11.c.s
+
+.PHONY : zju_experiment/5_11.s
+
+# target to generate assembly for a file
+zju_experiment/5_11.c.s:
+	$(MAKE) -f CMakeFiles\5_11.dir\build.make CMakeFiles/5_11.dir/zju_experiment/5_11.c.s
+.PHONY : zju_experiment/5_11.c.s
+
+zju_experiment/5_2.obj: zju_experiment/5_2.c.obj
+
+.PHONY : zju_experiment/5_2.obj
+
+# target to build an object file
+zju_experiment/5_2.c.obj:
+	$(MAKE) -f CMakeFiles\5_2.dir\build.make CMakeFiles/5_2.dir/zju_experiment/5_2.c.obj
+.PHONY : zju_experiment/5_2.c.obj
+
+zju_experiment/5_2.i: zju_experiment/5_2.c.i
+
+.PHONY : zju_experiment/5_2.i
+
+# target to preprocess a source file
+zju_experiment/5_2.c.i:
+	$(MAKE) -f CMakeFiles\5_2.dir\build.make CMakeFiles/5_2.dir/zju_experiment/5_2.c.i
+.PHONY : zju_experiment/5_2.c.i
+
+zju_experiment/5_2.s: zju_experiment/5_2.c.s
+
+.PHONY : zju_experiment/5_2.s
+
+# target to generate assembly for a file
+zju_experiment/5_2.c.s:
+	$(MAKE) -f CMakeFiles\5_2.dir\build.make CMakeFiles/5_2.dir/zju_experiment/5_2.c.s
+.PHONY : zju_experiment/5_2.c.s
+
+zju_experiment/5_3.obj: zju_experiment/5_3.c.obj
+
+.PHONY : zju_experiment/5_3.obj
+
+# target to build an object file
+zju_experiment/5_3.c.obj:
+	$(MAKE) -f CMakeFiles\5_3.dir\build.make CMakeFiles/5_3.dir/zju_experiment/5_3.c.obj
+.PHONY : zju_experiment/5_3.c.obj
+
+zju_experiment/5_3.i: zju_experiment/5_3.c.i
+
+.PHONY : zju_experiment/5_3.i
+
+# target to preprocess a source file
+zju_experiment/5_3.c.i:
+	$(MAKE) -f CMakeFiles\5_3.dir\build.make CMakeFiles/5_3.dir/zju_experiment/5_3.c.i
+.PHONY : zju_experiment/5_3.c.i
+
+zju_experiment/5_3.s: zju_experiment/5_3.c.s
+
+.PHONY : zju_experiment/5_3.s
+
+# target to generate assembly for a file
+zju_experiment/5_3.c.s:
+	$(MAKE) -f CMakeFiles\5_3.dir\build.make CMakeFiles/5_3.dir/zju_experiment/5_3.c.s
+.PHONY : zju_experiment/5_3.c.s
+
+zju_experiment/5_4.obj: zju_experiment/5_4.c.obj
+
+.PHONY : zju_experiment/5_4.obj
+
+# target to build an object file
+zju_experiment/5_4.c.obj:
+	$(MAKE) -f CMakeFiles\5_4.dir\build.make CMakeFiles/5_4.dir/zju_experiment/5_4.c.obj
+.PHONY : zju_experiment/5_4.c.obj
+
+zju_experiment/5_4.i: zju_experiment/5_4.c.i
+
+.PHONY : zju_experiment/5_4.i
+
+# target to preprocess a source file
+zju_experiment/5_4.c.i:
+	$(MAKE) -f CMakeFiles\5_4.dir\build.make CMakeFiles/5_4.dir/zju_experiment/5_4.c.i
+.PHONY : zju_experiment/5_4.c.i
+
+zju_experiment/5_4.s: zju_experiment/5_4.c.s
+
+.PHONY : zju_experiment/5_4.s
+
+# target to generate assembly for a file
+zju_experiment/5_4.c.s:
+	$(MAKE) -f CMakeFiles\5_4.dir\build.make CMakeFiles/5_4.dir/zju_experiment/5_4.c.s
+.PHONY : zju_experiment/5_4.c.s
+
+zju_experiment/5_5.obj: zju_experiment/5_5.c.obj
+
+.PHONY : zju_experiment/5_5.obj
+
+# target to build an object file
+zju_experiment/5_5.c.obj:
+	$(MAKE) -f CMakeFiles\5_5.dir\build.make CMakeFiles/5_5.dir/zju_experiment/5_5.c.obj
+.PHONY : zju_experiment/5_5.c.obj
+
+zju_experiment/5_5.i: zju_experiment/5_5.c.i
+
+.PHONY : zju_experiment/5_5.i
+
+# target to preprocess a source file
+zju_experiment/5_5.c.i:
+	$(MAKE) -f CMakeFiles\5_5.dir\build.make CMakeFiles/5_5.dir/zju_experiment/5_5.c.i
+.PHONY : zju_experiment/5_5.c.i
+
+zju_experiment/5_5.s: zju_experiment/5_5.c.s
+
+.PHONY : zju_experiment/5_5.s
+
+# target to generate assembly for a file
+zju_experiment/5_5.c.s:
+	$(MAKE) -f CMakeFiles\5_5.dir\build.make CMakeFiles/5_5.dir/zju_experiment/5_5.c.s
+.PHONY : zju_experiment/5_5.c.s
+
+zju_experiment/5_6.obj: zju_experiment/5_6.c.obj
+
+.PHONY : zju_experiment/5_6.obj
+
+# target to build an object file
+zju_experiment/5_6.c.obj:
+	$(MAKE) -f CMakeFiles\5_6.dir\build.make CMakeFiles/5_6.dir/zju_experiment/5_6.c.obj
+.PHONY : zju_experiment/5_6.c.obj
+
+zju_experiment/5_6.i: zju_experiment/5_6.c.i
+
+.PHONY : zju_experiment/5_6.i
+
+# target to preprocess a source file
+zju_experiment/5_6.c.i:
+	$(MAKE) -f CMakeFiles\5_6.dir\build.make CMakeFiles/5_6.dir/zju_experiment/5_6.c.i
+.PHONY : zju_experiment/5_6.c.i
+
+zju_experiment/5_6.s: zju_experiment/5_6.c.s
+
+.PHONY : zju_experiment/5_6.s
+
+# target to generate assembly for a file
+zju_experiment/5_6.c.s:
+	$(MAKE) -f CMakeFiles\5_6.dir\build.make CMakeFiles/5_6.dir/zju_experiment/5_6.c.s
+.PHONY : zju_experiment/5_6.c.s
+
+zju_experiment/5_7.obj: zju_experiment/5_7.c.obj
+
+.PHONY : zju_experiment/5_7.obj
+
+# target to build an object file
+zju_experiment/5_7.c.obj:
+	$(MAKE) -f CMakeFiles\5_7.dir\build.make CMakeFiles/5_7.dir/zju_experiment/5_7.c.obj
+.PHONY : zju_experiment/5_7.c.obj
+
+zju_experiment/5_7.i: zju_experiment/5_7.c.i
+
+.PHONY : zju_experiment/5_7.i
+
+# target to preprocess a source file
+zju_experiment/5_7.c.i:
+	$(MAKE) -f CMakeFiles\5_7.dir\build.make CMakeFiles/5_7.dir/zju_experiment/5_7.c.i
+.PHONY : zju_experiment/5_7.c.i
+
+zju_experiment/5_7.s: zju_experiment/5_7.c.s
+
+.PHONY : zju_experiment/5_7.s
+
+# target to generate assembly for a file
+zju_experiment/5_7.c.s:
+	$(MAKE) -f CMakeFiles\5_7.dir\build.make CMakeFiles/5_7.dir/zju_experiment/5_7.c.s
+.PHONY : zju_experiment/5_7.c.s
+
+zju_experiment/5_8.obj: zju_experiment/5_8.c.obj
+
+.PHONY : zju_experiment/5_8.obj
+
+# target to build an object file
+zju_experiment/5_8.c.obj:
+	$(MAKE) -f CMakeFiles\5_8.dir\build.make CMakeFiles/5_8.dir/zju_experiment/5_8.c.obj
+.PHONY : zju_experiment/5_8.c.obj
+
+zju_experiment/5_8.i: zju_experiment/5_8.c.i
+
+.PHONY : zju_experiment/5_8.i
+
+# target to preprocess a source file
+zju_experiment/5_8.c.i:
+	$(MAKE) -f CMakeFiles\5_8.dir\build.make CMakeFiles/5_8.dir/zju_experiment/5_8.c.i
+.PHONY : zju_experiment/5_8.c.i
+
+zju_experiment/5_8.s: zju_experiment/5_8.c.s
+
+.PHONY : zju_experiment/5_8.s
+
+# target to generate assembly for a file
+zju_experiment/5_8.c.s:
+	$(MAKE) -f CMakeFiles\5_8.dir\build.make CMakeFiles/5_8.dir/zju_experiment/5_8.c.s
+.PHONY : zju_experiment/5_8.c.s
+
+zju_experiment/5_9.obj: zju_experiment/5_9.c.obj
+
+.PHONY : zju_experiment/5_9.obj
+
+# target to build an object file
+zju_experiment/5_9.c.obj:
+	$(MAKE) -f CMakeFiles\5_9.dir\build.make CMakeFiles/5_9.dir/zju_experiment/5_9.c.obj
+.PHONY : zju_experiment/5_9.c.obj
+
+zju_experiment/5_9.i: zju_experiment/5_9.c.i
+
+.PHONY : zju_experiment/5_9.i
+
+# target to preprocess a source file
+zju_experiment/5_9.c.i:
+	$(MAKE) -f CMakeFiles\5_9.dir\build.make CMakeFiles/5_9.dir/zju_experiment/5_9.c.i
+.PHONY : zju_experiment/5_9.c.i
+
+zju_experiment/5_9.s: zju_experiment/5_9.c.s
+
+.PHONY : zju_experiment/5_9.s
+
+# target to generate assembly for a file
+zju_experiment/5_9.c.s:
+	$(MAKE) -f CMakeFiles\5_9.dir\build.make CMakeFiles/5_9.dir/zju_experiment/5_9.c.s
+.PHONY : zju_experiment/5_9.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -3917,6 +5517,7 @@ help:
 	@echo ... depend
 	@echo ... prac27
 	@echo ... 2_2_5
+	@echo ... 5_10
 	@echo ... 2_1_2
 	@echo ... prac7
 	@echo ... C_Programming
@@ -3939,6 +5540,7 @@ help:
 	@echo ... prac5
 	@echo ... prac26
 	@echo ... 2_2_4
+	@echo ... 5_11
 	@echo ... 2_1_3
 	@echo ... prac6
 	@echo ... prac28
@@ -3984,7 +5586,7 @@ help:
 	@echo ... 2_4_2
 	@echo ... 2_4_3
 	@echo ... 2_4_4
-	@echo ... 2_4_5
+	@echo ... 2_4_6
 	@echo ... 2_4_7
 	@echo ... 3_1
 	@echo ... 3_2
@@ -4010,8 +5612,46 @@ help:
 	@echo ... 4_1_10
 	@echo ... 4_1_11
 	@echo ... 4_1_12
-	@echo ... edit_cache
+	@echo ... prac40
+	@echo ... 4_2_2
+	@echo ... prac41
+	@echo ... 4_2_3
+	@echo ... prac46
+	@echo ... 4_2_4
+	@echo ... prac47
+	@echo ... 4_2_5
+	@echo ... test3
+	@echo ... prac44
+	@echo ... 4_2_6
+	@echo ... prac45
+	@echo ... 4_2_7
 	@echo ... rebuild_cache
+	@echo ... 4_2_8
+	@echo ... 4_2_9
+	@echo ... 2_4_1
+	@echo ... 2_4_5
+	@echo ... test4
+	@echo ... 5_1
+	@echo ... 5_2
+	@echo ... 5_3
+	@echo ... 5_4
+	@echo ... 5_5
+	@echo ... 5_6
+	@echo ... 5_7
+	@echo ... 5_8
+	@echo ... 5_9
+	@echo ... week1
+	@echo ... prac34
+	@echo ... prac35
+	@echo ... prac36
+	@echo ... prac37
+	@echo ... prac38
+	@echo ... prac39
+	@echo ... prac42
+	@echo ... prac43
+	@echo ... test5
+	@echo ... prac48
+	@echo ... edit_cache
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
@@ -4096,9 +5736,54 @@ help:
 	@echo ... mooc/prac33.obj
 	@echo ... mooc/prac33.i
 	@echo ... mooc/prac33.s
+	@echo ... mooc/prac34.obj
+	@echo ... mooc/prac34.i
+	@echo ... mooc/prac34.s
+	@echo ... mooc/prac35.obj
+	@echo ... mooc/prac35.i
+	@echo ... mooc/prac35.s
+	@echo ... mooc/prac36.obj
+	@echo ... mooc/prac36.i
+	@echo ... mooc/prac36.s
+	@echo ... mooc/prac37.obj
+	@echo ... mooc/prac37.i
+	@echo ... mooc/prac37.s
+	@echo ... mooc/prac38.obj
+	@echo ... mooc/prac38.i
+	@echo ... mooc/prac38.s
+	@echo ... mooc/prac39.obj
+	@echo ... mooc/prac39.i
+	@echo ... mooc/prac39.s
 	@echo ... mooc/prac4.obj
 	@echo ... mooc/prac4.i
 	@echo ... mooc/prac4.s
+	@echo ... mooc/prac40.obj
+	@echo ... mooc/prac40.i
+	@echo ... mooc/prac40.s
+	@echo ... mooc/prac41.obj
+	@echo ... mooc/prac41.i
+	@echo ... mooc/prac41.s
+	@echo ... mooc/prac42.obj
+	@echo ... mooc/prac42.i
+	@echo ... mooc/prac42.s
+	@echo ... mooc/prac43.obj
+	@echo ... mooc/prac43.i
+	@echo ... mooc/prac43.s
+	@echo ... mooc/prac44.obj
+	@echo ... mooc/prac44.i
+	@echo ... mooc/prac44.s
+	@echo ... mooc/prac45.obj
+	@echo ... mooc/prac45.i
+	@echo ... mooc/prac45.s
+	@echo ... mooc/prac46.obj
+	@echo ... mooc/prac46.i
+	@echo ... mooc/prac46.s
+	@echo ... mooc/prac47.obj
+	@echo ... mooc/prac47.i
+	@echo ... mooc/prac47.s
+	@echo ... mooc/prac48.obj
+	@echo ... mooc/prac48.i
+	@echo ... mooc/prac48.s
 	@echo ... mooc/prac5.obj
 	@echo ... mooc/prac5.i
 	@echo ... mooc/prac5.s
@@ -4114,12 +5799,24 @@ help:
 	@echo ... mooc/prac9.obj
 	@echo ... mooc/prac9.i
 	@echo ... mooc/prac9.s
+	@echo ... mooc_assignment/week1.obj
+	@echo ... mooc_assignment/week1.i
+	@echo ... mooc_assignment/week1.s
 	@echo ... test/test1.obj
 	@echo ... test/test1.i
 	@echo ... test/test1.s
 	@echo ... test/test2.obj
 	@echo ... test/test2.i
 	@echo ... test/test2.s
+	@echo ... test/test3.obj
+	@echo ... test/test3.i
+	@echo ... test/test3.s
+	@echo ... test/test4.obj
+	@echo ... test/test4.i
+	@echo ... test/test4.s
+	@echo ... test/test5.obj
+	@echo ... test/test5.i
+	@echo ... test/test5.s
 	@echo ... zju_experiment/1_1.obj
 	@echo ... zju_experiment/1_1.i
 	@echo ... zju_experiment/1_1.s
@@ -4213,6 +5910,9 @@ help:
 	@echo ... zju_experiment/2_3_7.obj
 	@echo ... zju_experiment/2_3_7.i
 	@echo ... zju_experiment/2_3_7.s
+	@echo ... zju_experiment/2_4_1.obj
+	@echo ... zju_experiment/2_4_1.i
+	@echo ... zju_experiment/2_4_1.s
 	@echo ... zju_experiment/2_4_2.obj
 	@echo ... zju_experiment/2_4_2.i
 	@echo ... zju_experiment/2_4_2.s
@@ -4225,6 +5925,9 @@ help:
 	@echo ... zju_experiment/2_4_5.obj
 	@echo ... zju_experiment/2_4_5.i
 	@echo ... zju_experiment/2_4_5.s
+	@echo ... zju_experiment/2_4_6.obj
+	@echo ... zju_experiment/2_4_6.i
+	@echo ... zju_experiment/2_4_6.s
 	@echo ... zju_experiment/2_4_7.obj
 	@echo ... zju_experiment/2_4_7.i
 	@echo ... zju_experiment/2_4_7.s
@@ -4297,6 +6000,63 @@ help:
 	@echo ... zju_experiment/4_1_9.obj
 	@echo ... zju_experiment/4_1_9.i
 	@echo ... zju_experiment/4_1_9.s
+	@echo ... zju_experiment/4_2_2.obj
+	@echo ... zju_experiment/4_2_2.i
+	@echo ... zju_experiment/4_2_2.s
+	@echo ... zju_experiment/4_2_3.obj
+	@echo ... zju_experiment/4_2_3.i
+	@echo ... zju_experiment/4_2_3.s
+	@echo ... zju_experiment/4_2_4.obj
+	@echo ... zju_experiment/4_2_4.i
+	@echo ... zju_experiment/4_2_4.s
+	@echo ... zju_experiment/4_2_5.obj
+	@echo ... zju_experiment/4_2_5.i
+	@echo ... zju_experiment/4_2_5.s
+	@echo ... zju_experiment/4_2_6.obj
+	@echo ... zju_experiment/4_2_6.i
+	@echo ... zju_experiment/4_2_6.s
+	@echo ... zju_experiment/4_2_7.obj
+	@echo ... zju_experiment/4_2_7.i
+	@echo ... zju_experiment/4_2_7.s
+	@echo ... zju_experiment/4_2_8.obj
+	@echo ... zju_experiment/4_2_8.i
+	@echo ... zju_experiment/4_2_8.s
+	@echo ... zju_experiment/4_2_9.obj
+	@echo ... zju_experiment/4_2_9.i
+	@echo ... zju_experiment/4_2_9.s
+	@echo ... zju_experiment/5_1.obj
+	@echo ... zju_experiment/5_1.i
+	@echo ... zju_experiment/5_1.s
+	@echo ... zju_experiment/5_10.obj
+	@echo ... zju_experiment/5_10.i
+	@echo ... zju_experiment/5_10.s
+	@echo ... zju_experiment/5_11.obj
+	@echo ... zju_experiment/5_11.i
+	@echo ... zju_experiment/5_11.s
+	@echo ... zju_experiment/5_2.obj
+	@echo ... zju_experiment/5_2.i
+	@echo ... zju_experiment/5_2.s
+	@echo ... zju_experiment/5_3.obj
+	@echo ... zju_experiment/5_3.i
+	@echo ... zju_experiment/5_3.s
+	@echo ... zju_experiment/5_4.obj
+	@echo ... zju_experiment/5_4.i
+	@echo ... zju_experiment/5_4.s
+	@echo ... zju_experiment/5_5.obj
+	@echo ... zju_experiment/5_5.i
+	@echo ... zju_experiment/5_5.s
+	@echo ... zju_experiment/5_6.obj
+	@echo ... zju_experiment/5_6.i
+	@echo ... zju_experiment/5_6.s
+	@echo ... zju_experiment/5_7.obj
+	@echo ... zju_experiment/5_7.i
+	@echo ... zju_experiment/5_7.s
+	@echo ... zju_experiment/5_8.obj
+	@echo ... zju_experiment/5_8.i
+	@echo ... zju_experiment/5_8.s
+	@echo ... zju_experiment/5_9.obj
+	@echo ... zju_experiment/5_9.i
+	@echo ... zju_experiment/5_9.s
 .PHONY : help
 
 

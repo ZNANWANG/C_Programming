@@ -19,18 +19,19 @@
  * @Date: 4/30/2020 12:05 PM
  */
 #include <stdio.h>
-int main(){
+
+int main() {
     int num = 0;
     scanf("%d", &num);
     int sum = 0;
     int digit = 0;
     int count = 0;
-    do{
+    do {
         digit = num % 10;
         sum += digit;
         num /= 10;
         count++;
-    } while(num != 0);
+    } while (num != 0);
     printf("%d %d\n", count, sum);
 
     return 0;

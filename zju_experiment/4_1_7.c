@@ -21,12 +21,13 @@
  * @Date: 4/30/2020 12:35 PM
  */
 #include <stdio.h>
-int main(){
+
+int main() {
     int a = 0, n = 0;
     scanf("%d %d", &a, &n);
     int sum = 0;
     int num = 0;
-    for(int i = 1; i <= n; i++){
+    for (int i = 1; i <= n; i++) {
         num = num * 10 + a;
         sum += num;
     }

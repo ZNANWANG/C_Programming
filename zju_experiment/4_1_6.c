@@ -19,14 +19,15 @@
  * @Date: 4/30/2020 12:14 PM
  */
 #include <stdio.h>
-int main(){
+
+int main() {
     double numerator = 2;
     double denominator = 1;
     double sum = 0;
     int n = 0;
     scanf("%d", &n);
-    for(int i = 0; i < n; i++){
-        sum += numerator/denominator;
+    for (int i = 0; i < n; i++) {
+        sum += numerator / denominator;
         double temp = denominator;
         denominator = numerator;
         numerator += temp;

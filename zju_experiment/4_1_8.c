@@ -25,23 +25,24 @@
  * @Date: 4/30/2020 12:43 PM
  */
 #include <stdio.h>
-int main(){
+
+int main() {
     double eps = 0;
     scanf("%lf", &eps);
 //    printf("eps = %lf\n", eps);
     double denominator = 1;
     double sum = 0;
     int flag = 1;
-    while(1){
-        double num = 1/denominator;
+    while (1) {
+        double num = 1 / denominator;
 //        printf("num = %lf\n", num);
-        if(num > eps) {
+        if (num > eps) {
             sum += num * flag;
         } else {
             sum += num * flag;
             break;
         }
-        denominator+=3;
+        denominator += 3;
         flag *= -1;
     }
     printf("sum = %lf\n", sum);

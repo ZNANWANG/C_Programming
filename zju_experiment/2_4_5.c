@@ -1,40 +1,54 @@
 /**
- * 求幂之和
+ * 简单实现x的n次方
  *
- * 本题要求编写程序，计算sum=2^1​​ +2^2 +2^​3 +⋯+2^n。可以调用pow函数求幂。
+ * 本题要求实现一个计算xn （n≥0）的函数。
  *
- * 输入格式:
- * 输入在一行中给出正整数n（≤10）。
+ * 函数接口定义：
+ * double mypow( double x, int n );
  *
- * 输出格式:
- * 按照格式“result = 计算结果”输出。
+ * 裁判测试程序样例：
+ * #include <stdio.h>
  *
- * 输入样例:
- * 5
+ * double mypow( double x, int n );
  *
- * 输出样例:
- * result = 62
+ * int main()
+ * {
+ *      double x;
+ *      int n;
+ *
+ *      scanf("%lf %d", &x, &n);
+ *      printf("%f\n", mypow(x, n));
+ *
+ *      return 0;
+ * }
+ *
+ * 输入样例：
+ * 0.24 4
+ *
+ * 输出样例：
+ * 0.003318
  *
  * @Author: Wang An
- * @Date: 4/29/2020 11:22 PM
+ * @Date: 5/1/2020 11:26 AM
  */
 #include <stdio.h>
-#include <math.h>
 
-int getResult(int n);
+double mypow(double x, int n);
 
 int main() {
-    int n = 0;
-    scanf("%d", &n);
-    int ret = getResult(n);
-    printf("result = %d\n", ret);
+    double x;
+    int n;
+
+    scanf("%lf %d", &x, &n);
+    printf("%f\n", mypow(x, n));
+
     return 0;
 }
 
-int getResult(int n) {
-    int ret = 0;
-    for (int i = 1; i <= n; i++) {
-        ret += pow(2, i);
+double mypow(double x, int n) {
+    double ret = 1;
+    for (int i = 0; i < n; i++) {
+        ret *= x;
     }
     return ret;
 }

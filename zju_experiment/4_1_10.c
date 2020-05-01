@@ -21,17 +21,17 @@
  */
 #include <stdio.h>
 
-int main(){
+int main() {
     int a = 1;
     int b = 1;
     int c = 1;
     int count = 2;
     int N;
     scanf("%d", &N);
-    if(N < 2){
+    if (N < 2) {
         count = 1;
     } else {
-        while(c < N){
+        while (c < N) {
             c = a + b;
             a = b;
             b = c;

@@ -20,10 +20,11 @@
  * @Date: 4/30/2020 12:09 PM
  */
 #include <stdio.h>
-int main(){
+
+int main() {
     int num = 0;
-    while(1){
-        if(num % 5 == 1 && num % 6 == 5 && num % 7 == 4 && num % 11 == 10){
+    while (1) {
+        if (num % 5 == 1 && num % 6 == 5 && num % 7 == 4 && num % 11 == 10) {
             break;
         }
         num++;
