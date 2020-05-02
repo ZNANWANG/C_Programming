@@ -7,7 +7,7 @@
 #include <stdio.h>
 
 int main() {
-    long long b= 479001600;
+    long long b = 479001600;
     printf("%d\n", 479001600 * 13);
     printf("%lld\n", b * 13);
     printf("%lf\n", 479001600 * 13.0);

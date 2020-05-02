@@ -13,7 +13,7 @@ int mooccmp1(const char *s1, const char *s2);
 
 int mooccmp2(const char *s1, const char *s2);
 
-int main(int argc, const char *argv[]){
+int main(int argc, const char *argv[]) {
     char s1[] = "cbc";
     char s2[] = "abc ";
     printf("s1 == s2 = %d\n", s1 == s2); // ºã²»ÏàµÈ ¡ª¡ª Array comparison always evaluates to false
@@ -39,16 +39,16 @@ int main(int argc, const char *argv[]){
 int mycmp(const char *s1, const char *s2) {
     int ret = 0;
     int idx = 0;
-    while(s1[idx] != '\0' && s2[idx] != '\0'){
-        if(s1[idx] > s2[idx]){
+    while (s1[idx] != '\0' && s2[idx] != '\0') {
+        if (s1[idx] > s2[idx]) {
             return s1[idx] - s2[idx];
-        } else if(s1[idx] < s2[idx]){
+        } else if (s1[idx] < s2[idx]) {
             return s1[idx] - s2[idx];
         }
         idx++;
     }
 
-    if(s1[idx] == '\0' && s2[idx] == '\0'){
+    if (s1[idx] == '\0' && s2[idx] == '\0') {
         ret = 0;
     } else {
         ret = s1[idx] - s2[idx];
@@ -58,7 +58,7 @@ int mycmp(const char *s1, const char *s2) {
 }
 
 int mooccmp1(const char *s1, const char *s2) {
-    while(*s1 == *s2 && *s1 != '\0'){
+    while (*s1 == *s2 && *s1 != '\0') {
         s1++;
         s2++;
     }
@@ -67,7 +67,7 @@ int mooccmp1(const char *s1, const char *s2) {
 
 int mooccmp2(const char *s1, const char *s2) {
     int idx = 0;
-    while(s1[idx] == s2[idx] && s1[idx] != '\0'){
+    while (s1[idx] == s2[idx] && s1[idx] != '\0') {
         idx++;
     }
     return s1[idx] - s2[idx];

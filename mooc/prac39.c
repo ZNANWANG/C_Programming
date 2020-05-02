@@ -24,10 +24,10 @@
 
 void f(const int array[]);
 
-int main(){
+int main() {
     int a = 8;
     printf("a = %d\n", a);
-    int * const p = &a;
+    int *const p = &a;
     *p = 6;
     printf("a = %d\n", a);
 //    p++; // p是常量指针，不可修改值。
@@ -36,7 +36,7 @@ int main(){
 //    *q = 9; // 表示不能通过q指针去修改a的值，但是并不会使a变成const。
     q++; // q指针可以修改值，也就是指针指向。
 
-    const int array[] = {1,2,3,4,5};
+    const int array[] = {1, 2, 3, 4, 5};
 //    array[0] = 9; // const表明数组的每个单元都是const int，只读不能修改。
     f(array);
     printf("a[0] = %d\n", array[0]);

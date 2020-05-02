@@ -1,5 +1,5 @@
 /**
- * 使用函数判断完全平方数
+ * 实验5-6 使用函数判断完全平方数 (10分)
  *
  * 本题要求实现一个判断整数是否为完全平方数的简单函数。
  *
@@ -60,7 +60,7 @@ int main() {
 int IsSquare(int n) {
     int ret = 0;
     int t = sqrt(n);
-    if(pow(t, 2) == n){
+    if (pow(t, 2) == n) {
         ret = 1;
     }
     return ret;

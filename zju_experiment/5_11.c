@@ -1,5 +1,5 @@
 /**
- * 使用函数求最大公约数
+ * 实验5-11 使用函数求最大公约数 (10分)
  *
  * 本题要求实现一个计算两个数的最大公约数的简单函数。
  *
@@ -36,10 +36,9 @@
  */
 #include <stdio.h>
 
-int gcd( int x, int y );
+int gcd(int x, int y);
 
-int main()
-{
+int main() {
     int x, y;
 
     scanf("%d %d", &x, &y);
@@ -48,11 +47,11 @@ int main()
     return 0;
 }
 
-int gcd( int x, int y ){
+int gcd(int x, int y) {
     int min = x < y ? x : y;
     int gcd = 0;
-    for(int i = 1; i <= min; i++){
-        if(x % i == 0 && y % i == 0){
+    for (int i = 1; i <= min; i++) {
+        if (x % i == 0 && y % i == 0) {
             gcd = i;
         }
     }

@@ -9,7 +9,9 @@
 
 size_t mylen(const char *line);
 
-int main(int argc, char const *argv[]){
+size_t mylen1(const char *line);
+
+int main(int argc, char const *argv[]) {
     char line[] = "hello";
     printf("mylen = %llu\n", mylen(line));
     printf("strlen = %llu\n", strlen(line));
@@ -19,15 +21,23 @@ int main(int argc, char const *argv[]){
 }
 
 /**
- * 遍历字符串数组
+ * 遍历字符串数组计算字符串长度（不包括'\0')
  *
  * @param line 字符串数组
  * @return 字符串有效元素个数（不包括\0)
  */
 size_t mylen(const char *line) {
     int idx = 0;
-    while(line[idx] != '\0'){
+    while (line[idx] != '\0') {
         idx++;
     }
     return idx;
+}
+
+size_t mylen1(const char *line) {
+    char *ret = line;
+    while (*line) {
+        line++;
+    }
+    return line - ret;
 }

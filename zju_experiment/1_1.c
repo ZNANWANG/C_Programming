@@ -1,5 +1,5 @@
 /**
- * Hello World!
+ * 实验1-1 Hello World! (5分)
  *
  * 本题要求编写程序，输出一个短句“Hello World!”。
  *

@@ -1,5 +1,5 @@
 /**
- * 使用函数输出水仙花数
+ * 实验5-9 使用函数输出水仙花数 (20分)
  *
  * 水仙花数是指一个N位正整数（N≥3），它的每个位上的数字的N次幂之和等于它本身。例如：153=1^3+5^3+3^3。本题要求编写两个函数，一个判断给定整数是
  * 否水仙花数，另一个按从小到大的顺序打印出给定区间(m,n)内所有的水仙花数。
@@ -67,25 +67,25 @@ int narcissistic(int number) {
     } while (n != 0);
 
     n = number;
-    do{
+    do {
         digit = n % 10;
         int t = 1;
-        for(int i = 0; i < count; i++){
+        for (int i = 0; i < count; i++) {
             t *= digit;
         }
         sum += t;
         n /= 10;
-    } while(n != 0);
+    } while (n != 0);
 
-    if(sum == number){
+    if (sum == number) {
         ret = 1;
     }
     return ret;
 }
 
 void PrintN(int m, int n) {
-    for(int i = m + 1; i < n; i++){
-        if(narcissistic(i)){
+    for (int i = m + 1; i < n; i++) {
+        if (narcissistic(i)) {
             printf("%d\n", i);
         }
     }

@@ -1,5 +1,5 @@
 /**
- * 使用函数计算两点间的距离
+ * 实验5-4 使用函数计算两点间的距离 (10分)
  *
  * 本题要求实现一个函数，对给定平面任意两点坐标(x1, y1)和(x2, y2)，求这两点之间的距离。
  *
@@ -36,10 +36,9 @@
 #include <stdio.h>
 #include <math.h>
 
-double dist( double x1, double y1, double x2, double y2 );
+double dist(double x1, double y1, double x2, double y2);
 
-int main()
-{
+int main() {
     double x1, y1, x2, y2;
 
     scanf("%lf %lf %lf %lf", &x1, &y1, &x2, &y2);
@@ -48,7 +47,7 @@ int main()
     return 0;
 }
 
-double dist( double x1, double y1, double x2, double y2 ){
+double dist(double x1, double y1, double x2, double y2) {
     double dist = sqrt(pow((x1 - x2), 2) + pow((y1 - y2), 2));
     return dist;
 }

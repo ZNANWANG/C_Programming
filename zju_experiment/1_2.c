@@ -1,5 +1,5 @@
 /**
- * Welcome to You!
+ * 实验1-2 Welcome to You! (5分)
  *
  * 本题要求编写程序，输出一个短句“Welcome to You!”。
  *

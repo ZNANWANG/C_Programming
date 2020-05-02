@@ -1,5 +1,5 @@
 /**
- * Programming in C is fun!
+ * 实验1-3 Programming in C is fun! (5分)
  *
  * 本题要求编写程序，输出一个短句“Programming in C is fun!”。
  *

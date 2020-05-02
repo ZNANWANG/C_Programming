@@ -1,5 +1,5 @@
 /**
- * 使用函数求余弦函数的近似值
+ * 实验5-10 使用函数求余弦函数的近似值 (15分)
  *
  * 本题要求实现一个函数，用下列公式求cos(x)的近似值，精确到最后一项的绝对值小于e：
  *
@@ -52,13 +52,13 @@ int main() {
 double funcos(double e, double x) {
     int flag = 1, count = 0;
     double sum = 0, fact = 1; // 注意fact精度很高，需要用double，不能使用int。
-    while(1){
-        if(count % 2 == 0) {
+    while (1) {
+        if (count % 2 == 0) {
             double temp = pow(x, count) / fact;
 //            printf("temp = %lf\n", temp);
             sum += temp * flag;
 //            printf("sum = %lf\n", sum);
-            if(temp < e){
+            if (temp < e) {
                 break;
             }
             flag *= -1;

@@ -10,12 +10,12 @@
 
 int divide(int a, int b, double *c);
 
-int main(){
+int main() {
     int a = 0, b = 0;
     scanf("%d %d", &a, &b);
     printf("a = %d, b = %d\n", a, b);
     double c = 0;
-    if(divide(a,b,&c)){
+    if (divide(a, b, &c)) {
         printf("%d / %d = %.3lf\n", a, b, c);
     }
 
@@ -24,10 +24,10 @@ int main(){
 
 int divide(int a, int b, double *c) {
     int ret = 1;
-    if(b == 0){
+    if (b == 0) {
         ret = 0;
     } else {
-        *c = a * 1.0/b;
+        *c = a * 1.0 / b;
     }
 
     return ret;

@@ -1,5 +1,5 @@
 /**
- * 计算存款利息
+ * 实验2-2-3 计算存款利息 (10分)
  *
  * 本题目要求计算存款利息，计算公式为interest=money×(1+rate)^year−money，其中interest为存款到期时的利息（税前），money是存款金额，year
  * 是存期，rate是年利率。

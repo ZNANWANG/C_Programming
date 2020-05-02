@@ -1,5 +1,5 @@
 /**
- * 使用函数求1到10的阶乘和
+ * 实验5-7 使用函数求1到10的阶乘和 (10分)
  *
  * 本题要求实现一个计算非负整数阶乘的简单函数，使得可以利用该函数，计算1!+2!+⋯+10!的值。
  *
@@ -37,24 +37,23 @@
  */
 #include <stdio.h>
 
-double fact( int n );
+double fact(int n);
 
-int main(void)
-{
+int main(void) {
     int i;
     double sum;
 
     sum = 0;
-    for(i = 1; i <= 10; i++)
+    for (i = 1; i <= 10; i++)
         sum = sum + fact(i);
 
     printf("1!+2!+...+10! = %f\n", sum);
     return 0;
 }
 
-double fact( int n ){
+double fact(int n) {
     double factorial = 1;
-    for(int i = 1; i <= n; i++){
+    for (int i = 1; i <= n; i++) {
         factorial *= i;
     }
     return factorial;

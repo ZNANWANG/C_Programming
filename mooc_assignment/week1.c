@@ -32,7 +32,27 @@
  * @Date: 5/1/2020 4:25 PM
  */
 #include <stdio.h>
+#include <string.h>
 
-int main(){
+int main(int argc, const char *argv[]) {
+    char str1[10000];
+    char str2[10000];
+    scanf("%[^\n]%*c%[^\n]%*c", str1, str2);
+    printf("%s\n%s\n", str1, str2);
+    char *p = str2;
+    int cnt = 0;
+    while (*p) {
+        p = strstr(p, str1);
+        if (p >= str2) {
+            cnt++;
+            printf("%d ", p++ - str2);
+        } else {
+            break;
+        }
+    }
+    if (cnt == 0) {
+        printf("\n-1\n");
+    }
 
+    return 0;
 }

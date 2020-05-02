@@ -1,5 +1,5 @@
 /**
- * What is a computer?
+ * 实验1-7 What is a computer? (5分)
  *
  * 本题要求编写程序，输出一个短句“What is a computer?”。
  *

@@ -6,9 +6,9 @@
  */
 #include <stdio.h>
 
-int main(int argc, const char *argv[]){
+int main(int argc, const char *argv[]) {
     char a[] = "hello";
-    for(int i = 0; i < 10; i++){
+    for (int i = 0; i < 10; i++) {
         printf("a[%d] = %d\t", i, a[i]);
     }
     printf("\n");

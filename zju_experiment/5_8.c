@@ -1,5 +1,5 @@
 /**
- * 使用函数统计指定数字的个数
+ * 实验5-8 使用函数统计指定数字的个数 (15分)
  *
  * 本题要求实现一个统计整数中指定数字的个数的简单函数。
  *
@@ -47,7 +47,7 @@ int main() {
 
 int CountDigit(int number, int digit) {
     int t = 0, count = 0;
-    if(number < 0){
+    if (number < 0) {
         number *= -1;
     }
     do {

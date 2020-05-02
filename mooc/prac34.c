@@ -9,9 +9,9 @@
 
 void swap(int *pa, int *pb);
 
-int main(){
+int main() {
     int a = 0, b = 0;
-    scanf("%d %d", &a ,&b);
+    scanf("%d %d", &a, &b);
     printf("a = %d, b = %d\n", a, b);
     int *pa = &a;
     int *pb = &b;

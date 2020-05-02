@@ -7,10 +7,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
+int main() {
     void *p = 0;
     int cnt = 0;
-    while((p = malloc(100*1024*1024))){
+    while ((p = malloc(100 * 1024 * 1024))) {
         cnt++;
     }
     printf("Allocate %d00M memory.\n", cnt);
