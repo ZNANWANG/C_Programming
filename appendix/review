@@ -230,4 +230,25 @@ void*表示不知道指向什么东西的指针，计算时与char*相同（但�
 这并没有改变p所指的变量类型，而是让后人用不同的眼光通过q看它所指的变量。（我不再当你是int了，我认为你就是个void）
 66.char * strstr(const char *s1, const char *s2);
 char * strscasestr(const char *s1, const char *s2);
-
+67.常用缩写词
+    argument 可缩写为 arg
+    buffer 可缩写为 buff
+    clock 可缩写为 clk
+    command 可缩写为 cmd
+    compare 可缩写为 cmp
+    configuration 可缩写为 cfg
+    device 可缩写为 dev
+    error 可缩写为 err
+    hexadecimal 可缩写为 hex
+    increment 可缩写为 inc
+    initialize 可缩写为 init
+    maximum 可缩写为 max
+    message 可缩写为 msg
+    minimum 可缩写为 min
+    parameter 可缩写为 para
+    previous 可缩写为 prev
+    register 可缩写为 reg
+    semaphore 可缩写为 sem
+    statistic 可缩写为 stat
+    synchronize 可缩写为 sync
+    temp 可缩写为 tmp
