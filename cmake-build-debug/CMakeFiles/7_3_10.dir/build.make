@@ -56,27 +56,27 @@ include CMakeFiles/7_3_10.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/7_3_10.dir/flags.make
 
-CMakeFiles/7_3_10.dir/zju_experiment/7_3_10.c.obj: CMakeFiles/7_3_10.dir/flags.make
-CMakeFiles/7_3_10.dir/zju_experiment/7_3_10.c.obj: ../zju_experiment/7_3_10.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\CLionProjects\C_Programming\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/7_3_10.dir/zju_experiment/7_3_10.c.obj"
-	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\7_3_10.dir\zju_experiment\7_3_10.c.obj   -c G:\CLionProjects\C_Programming\zju_experiment\7_3_10.c
+CMakeFiles/7_3_10.dir/zju_experiment/7/7_3_10.c.obj: CMakeFiles/7_3_10.dir/flags.make
+CMakeFiles/7_3_10.dir/zju_experiment/7/7_3_10.c.obj: ../zju_experiment/7/7_3_10.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\CLionProjects\C_Programming\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/7_3_10.dir/zju_experiment/7/7_3_10.c.obj"
+	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\7_3_10.dir\zju_experiment\7\7_3_10.c.obj   -c G:\CLionProjects\C_Programming\zju_experiment\7\7_3_10.c
 
-CMakeFiles/7_3_10.dir/zju_experiment/7_3_10.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/7_3_10.dir/zju_experiment/7_3_10.c.i"
-	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\CLionProjects\C_Programming\zju_experiment\7_3_10.c > CMakeFiles\7_3_10.dir\zju_experiment\7_3_10.c.i
+CMakeFiles/7_3_10.dir/zju_experiment/7/7_3_10.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/7_3_10.dir/zju_experiment/7/7_3_10.c.i"
+	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\CLionProjects\C_Programming\zju_experiment\7\7_3_10.c > CMakeFiles\7_3_10.dir\zju_experiment\7\7_3_10.c.i
 
-CMakeFiles/7_3_10.dir/zju_experiment/7_3_10.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/7_3_10.dir/zju_experiment/7_3_10.c.s"
-	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\CLionProjects\C_Programming\zju_experiment\7_3_10.c -o CMakeFiles\7_3_10.dir\zju_experiment\7_3_10.c.s
+CMakeFiles/7_3_10.dir/zju_experiment/7/7_3_10.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/7_3_10.dir/zju_experiment/7/7_3_10.c.s"
+	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\CLionProjects\C_Programming\zju_experiment\7\7_3_10.c -o CMakeFiles\7_3_10.dir\zju_experiment\7\7_3_10.c.s
 
 # Object files for target 7_3_10
 7_3_10_OBJECTS = \
-"CMakeFiles/7_3_10.dir/zju_experiment/7_3_10.c.obj"
+"CMakeFiles/7_3_10.dir/zju_experiment/7/7_3_10.c.obj"
 
 # External object files for target 7_3_10
 7_3_10_EXTERNAL_OBJECTS =
 
-7_3_10.exe: CMakeFiles/7_3_10.dir/zju_experiment/7_3_10.c.obj
+7_3_10.exe: CMakeFiles/7_3_10.dir/zju_experiment/7/7_3_10.c.obj
 7_3_10.exe: CMakeFiles/7_3_10.dir/build.make
 7_3_10.exe: CMakeFiles/7_3_10.dir/linklibs.rsp
 7_3_10.exe: CMakeFiles/7_3_10.dir/objects1.rsp

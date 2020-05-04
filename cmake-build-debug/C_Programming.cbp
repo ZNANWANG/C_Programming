@@ -5175,6 +5175,42 @@
 					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="test21">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/test21.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 test21"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test21/fast">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/test21.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 test21/fast"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="prac34">
 				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/prac34.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
@@ -5206,6 +5242,42 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac34/fast"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test20">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/test20.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 test20"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test20/fast">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/test20.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 test20/fast"/>
 					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -5679,6 +5751,42 @@
 					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="8_2_9">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_2_9.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_2_9"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_2_9/fast">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_2_9.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_2_9/fast"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="6_8">
 				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/6_8.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
@@ -5751,6 +5859,42 @@
 					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="8_2_8">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_2_8.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_2_8"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_2_8/fast">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_2_8.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_2_8/fast"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="6_9">
 				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/6_9.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
@@ -5782,6 +5926,42 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_9/fast"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_2_3">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_2_3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_2_3"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_2_3/fast">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_2_3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_2_3/fast"/>
 					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -5823,6 +6003,42 @@
 					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="8_2_2">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_2_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_2_2"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_2_2/fast">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_2_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_2_2/fast"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="6_3">
 				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/6_3.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
@@ -5854,6 +6070,42 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_3/fast"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_2_5">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_2_5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_2_5"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_2_5/fast">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_2_5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_2_5/fast"/>
 					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -5895,6 +6147,42 @@
 					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="8_2_4">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_2_4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_2_4"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_2_4/fast">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_2_4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_2_4/fast"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="6_5">
 				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/6_5.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
@@ -5931,6 +6219,42 @@
 					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="8_2_7">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_2_7.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_2_7"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_2_7/fast">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_2_7.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_2_7/fast"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="6_6">
 				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/6_6.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
@@ -5962,6 +6286,42 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_6/fast"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_2_6">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_2_6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_2_6"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_2_6/fast">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_2_6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_2_6/fast"/>
 					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -6939,6 +7299,438 @@
 					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="8_1_1">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_1_1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_1_1"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_1_1/fast">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_1_1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_1_1/fast"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_1_2">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_1_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_1_2"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_1_2/fast">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_1_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_1_2/fast"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_1_3">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_1_3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_1_3"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_1_3/fast">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_1_3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_1_3/fast"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_1_4">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_1_4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_1_4"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_1_4/fast">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_1_4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_1_4/fast"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_1_5">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_1_5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_1_5"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_1_5/fast">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_1_5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_1_5/fast"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_1_6">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_1_6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_1_6"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_1_6/fast">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_1_6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_1_6/fast"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_1_7">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_1_7.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_1_7"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_1_7/fast">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_1_7.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_1_7/fast"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_1_8">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_1_8.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_1_8"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_1_8/fast">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_1_8.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_1_8/fast"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_1_9">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_1_9.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_1_9"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_1_9/fast">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_1_9.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_1_9/fast"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_2_1">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_2_1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_2_1"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_2_1/fast">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_2_1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_2_1/fast"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_2_10">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_2_10.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_2_10"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8_2_10/fast">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/8_2_10.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_2_10/fast"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="9_1">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/9_1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 9_1"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="9_1/fast">
+				<Option output="G:/CLionProjects/C_Programming/cmake-build-debug/9_1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 9_1/fast"/>
+					<CompileFile command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;G:/CLionProjects/C_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="G:/CLionProjects/C_Programming/cmake-build-debug"/>
 				<Option type="4"/>
@@ -7139,6 +7931,12 @@
 		<Unit filename="G:/CLionProjects/C_Programming/test/test2.c">
 			<Option target="test2"/>
 		</Unit>
+		<Unit filename="G:/CLionProjects/C_Programming/test/test20.c">
+			<Option target="test20"/>
+		</Unit>
+		<Unit filename="G:/CLionProjects/C_Programming/test/test21.c">
+			<Option target="test21"/>
+		</Unit>
 		<Unit filename="G:/CLionProjects/C_Programming/test/test3.c">
 			<Option target="test3"/>
 		</Unit>
@@ -7160,371 +7958,431 @@
 		<Unit filename="G:/CLionProjects/C_Programming/test/test9.c">
 			<Option target="test9"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/1_1.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/1/1_1.c">
 			<Option target="1_1"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/1_2.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/1/1_2.c">
 			<Option target="1_2"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/1_3.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/1/1_3.c">
 			<Option target="1_3"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/1_4.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/1/1_4.c">
 			<Option target="1_4"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/1_5.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/1/1_5.c">
 			<Option target="1_5"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/1_6.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/1/1_6.c">
 			<Option target="1_6"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/1_7.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/1/1_7.c">
 			<Option target="1-7"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/1_8.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/1/1_8.c">
 			<Option target="1_8"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2-1-1.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2-1-1.c">
 			<Option target="2-1-1"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_1_2.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_1_2.c">
 			<Option target="2_1_2"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_1_3.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_1_3.c">
 			<Option target="2_1_3"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_1_4.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_1_4.c">
 			<Option target="2_1_4"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_1_5.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_1_5.c">
 			<Option target="2_1_5"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_1_6.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_1_6.c">
 			<Option target="2_1_6"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_1_7.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_1_7.c">
 			<Option target="2_1_7"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_2_1.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_2_1.c">
 			<Option target="2_2_1"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_2_2.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_2_2.c">
 			<Option target="2_2_2"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_2_3.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_2_3.c">
 			<Option target="2_2_3"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_2_4.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_2_4.c">
 			<Option target="2_2_4"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_2_5.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_2_5.c">
 			<Option target="2_2_5"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_2_6.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_2_6.c">
 			<Option target="2_2_6"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_2_7.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_2_7.c">
 			<Option target="2_2_7"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_2_8.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_2_8.c">
 			<Option target="2_2_8"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_2_9.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_2_9.c">
 			<Option target="2_2_9"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_3_1.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_3_1.c">
 			<Option target="2_3_1"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_3_2.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_3_2.c">
 			<Option target="2_3_2"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_3_3.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_3_3.c">
 			<Option target="2_3_3"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_3_4.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_3_4.c">
 			<Option target="2_3_4"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_3_5.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_3_5.c">
 			<Option target="2_3_5"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_3_6.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_3_6.c">
 			<Option target="2_3_6"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_3_7.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_3_7.c">
 			<Option target="2_3_7"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_4_1.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_4_1.c">
 			<Option target="2_4_1"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_4_2.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_4_2.c">
 			<Option target="2_4_2"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_4_3.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_4_3.c">
 			<Option target="2_4_3"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_4_4.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_4_4.c">
 			<Option target="2_4_4"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_4_5.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_4_5.c">
 			<Option target="2_4_5"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_4_6.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_4_6.c">
 			<Option target="2_4_6"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2_4_7.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/2/2_4_7.c">
 			<Option target="2_4_7"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/3_1.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/3/3_1.c">
 			<Option target="3_1"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/3_10.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/3/3_10.c">
 			<Option target="3_10"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/3_11.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/3/3_11.c">
 			<Option target="3_11"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/3_2.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/3/3_2.c">
 			<Option target="3_2"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/3_3.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/3/3_3.c">
 			<Option target="3_3"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/3_4.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/3/3_4.c">
 			<Option target="3_4"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/3_5.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/3/3_5.c">
 			<Option target="3_5"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/3_6.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/3/3_6.c">
 			<Option target="3_6"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/3_7.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/3/3_7.c">
 			<Option target="3_7"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/3_8.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/3/3_8.c">
 			<Option target="3_8"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/3_9.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/3/3_9.c">
 			<Option target="3_9"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4_1_1.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4/4_1_1.c">
 			<Option target="4_1_1"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4_1_10.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4/4_1_10.c">
 			<Option target="4_1_10"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4_1_11.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4/4_1_11.c">
 			<Option target="4_1_11"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4_1_12.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4/4_1_12.c">
 			<Option target="4_1_12"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4_1_2.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4/4_1_2.c">
 			<Option target="4_1_2"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4_1_3.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4/4_1_3.c">
 			<Option target="4_1_3"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4_1_4.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4/4_1_4.c">
 			<Option target="4_1_4"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4_1_5.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4/4_1_5.c">
 			<Option target="4_1_5"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4_1_6.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4/4_1_6.c">
 			<Option target="4_1_6"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4_1_7.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4/4_1_7.c">
 			<Option target="4_1_7"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4_1_8.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4/4_1_8.c">
 			<Option target="4_1_8"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4_1_9.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4/4_1_9.c">
 			<Option target="4_1_9"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4_2_2.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4/4_2_2.c">
 			<Option target="4_2_2"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4_2_3.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4/4_2_3.c">
 			<Option target="4_2_3"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4_2_4.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4/4_2_4.c">
 			<Option target="4_2_4"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4_2_5.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4/4_2_5.c">
 			<Option target="4_2_5"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4_2_6.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4/4_2_6.c">
 			<Option target="4_2_6"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4_2_7.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4/4_2_7.c">
 			<Option target="4_2_7"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4_2_8.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4/4_2_8.c">
 			<Option target="4_2_8"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4_2_9.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/4/4_2_9.c">
 			<Option target="4_2_9"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/5_1.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/5/5_1.c">
 			<Option target="5_1"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/5_10.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/5/5_10.c">
 			<Option target="5_10"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/5_11.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/5/5_11.c">
 			<Option target="5_11"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/5_2.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/5/5_2.c">
 			<Option target="5_2"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/5_3.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/5/5_3.c">
 			<Option target="5_3"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/5_4.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/5/5_4.c">
 			<Option target="5_4"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/5_5.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/5/5_5.c">
 			<Option target="5_5"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/5_6.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/5/5_6.c">
 			<Option target="5_6"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/5_7.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/5/5_7.c">
 			<Option target="5_7"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/5_8.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/5/5_8.c">
 			<Option target="5_8"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/5_9.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/5/5_9.c">
 			<Option target="5_9"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/6_1.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/6/6_1.c">
 			<Option target="6_1"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/6_2.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/6/6_2.c">
 			<Option target="6_2"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/6_3.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/6/6_3.c">
 			<Option target="6_3"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/6_4.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/6/6_4.c">
 			<Option target="6_4"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/6_5.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/6/6_5.c">
 			<Option target="6_5"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/6_6.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/6/6_6.c">
 			<Option target="6_6"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/6_7.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/6/6_7.c">
 			<Option target="6_7"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/6_8.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/6/6_8.c">
 			<Option target="6_8"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/6_9.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/6/6_9.c">
 			<Option target="6_9"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_1_1.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_1_1.c">
 			<Option target="7_1_1"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_1_10.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_1_10.c">
 			<Option target="7_1_10"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_1_11.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_1_11.c">
 			<Option target="7_1_11"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_1_12.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_1_12.c">
 			<Option target="7_1_12"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_1_13.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_1_13.c">
 			<Option target="7_1_13"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_1_2.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_1_2.c">
 			<Option target="7_1_2"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_1_3.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_1_3.c">
 			<Option target="7_1_3"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_1_4.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_1_4.c">
 			<Option target="7_1_4"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_1_5.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_1_5.c">
 			<Option target="7_1_5"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_1_6.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_1_6.c">
 			<Option target="7_1_6"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_1_7.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_1_7.c">
 			<Option target="7_1_7"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_1_8.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_1_8.c">
 			<Option target="7_1_8"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_1_9.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_1_9.c">
 			<Option target="7_1_9"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_2_1.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_2_1.c">
 			<Option target="7_2_1"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_2_10.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_2_10.c">
 			<Option target="7_2_10"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_2_2.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_2_2.c">
 			<Option target="7_2_2"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_2_3.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_2_3.c">
 			<Option target="7_2_3"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_2_4.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_2_4.c">
 			<Option target="7_2_4"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_2_5.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_2_5.c">
 			<Option target="7_2_5"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_2_6.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_2_6.c">
 			<Option target="7_2_6"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_2_7.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_2_7.c">
 			<Option target="7_2_7"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_2_8.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_2_8.c">
 			<Option target="7_2_8"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_2_9.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_2_9.c">
 			<Option target="7_2_9"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_3_1.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_3_1.c">
 			<Option target="7_3_1"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_3_10.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_3_10.c">
 			<Option target="7_3_10"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_3_2.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_3_2.c">
 			<Option target="7_3_2"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_3_3.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_3_3.c">
 			<Option target="7_3_3"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_3_4.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_3_4.c">
 			<Option target="7_3_4"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_3_5.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_3_5.c">
 			<Option target="7_3_5"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_3_6.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_3_6.c">
 			<Option target="7_3_6"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_3_7.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_3_7.c">
 			<Option target="7_3_7"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_3_8.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_3_8.c">
 			<Option target="7_3_8"/>
 		</Unit>
-		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7_3_9.c">
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/7/7_3_9.c">
 			<Option target="7_3_9"/>
+		</Unit>
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/8/8_1_1.c">
+			<Option target="8_1_1"/>
+		</Unit>
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/8/8_1_2.c">
+			<Option target="8_1_2"/>
+		</Unit>
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/8/8_1_3.c">
+			<Option target="8_1_3"/>
+		</Unit>
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/8/8_1_4.c">
+			<Option target="8_1_4"/>
+		</Unit>
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/8/8_1_5.c">
+			<Option target="8_1_5"/>
+		</Unit>
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/8/8_1_6.c">
+			<Option target="8_1_6"/>
+		</Unit>
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/8/8_1_7.c">
+			<Option target="8_1_7"/>
+		</Unit>
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/8/8_1_8.c">
+			<Option target="8_1_8"/>
+		</Unit>
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/8/8_1_9.c">
+			<Option target="8_1_9"/>
+		</Unit>
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/8/8_2_1.c">
+			<Option target="8_2_1"/>
+		</Unit>
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/8/8_2_10.c">
+			<Option target="8_2_10"/>
+		</Unit>
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/8/8_2_2.c">
+			<Option target="8_2_2"/>
+		</Unit>
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/8/8_2_3.c">
+			<Option target="8_2_3"/>
+		</Unit>
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/8/8_2_4.c">
+			<Option target="8_2_4"/>
+		</Unit>
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/8/8_2_5.c">
+			<Option target="8_2_5"/>
+		</Unit>
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/8/8_2_6.c">
+			<Option target="8_2_6"/>
+		</Unit>
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/8/8_2_7.c">
+			<Option target="8_2_7"/>
+		</Unit>
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/8/8_2_8.c">
+			<Option target="8_2_8"/>
+		</Unit>
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/8/8_2_9.c">
+			<Option target="8_2_9"/>
+		</Unit>
+		<Unit filename="G:/CLionProjects/C_Programming/zju_experiment/9/9_1.c">
+			<Option target="9_1"/>
 		</Unit>
 		<Unit filename="G:/CLionProjects/C_Programming/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

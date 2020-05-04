@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "4_2_9.exe"
   "4_2_9.exe.manifest"
   "4_2_9.pdb"
-  "CMakeFiles/4_2_9.dir/zju_experiment/4_2_9.c.obj"
+  "CMakeFiles/4_2_9.dir/zju_experiment/4/4_2_9.c.obj"
   "lib4_2_9.dll.a"
 )
 
