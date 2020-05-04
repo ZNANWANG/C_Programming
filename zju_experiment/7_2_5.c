@@ -43,15 +43,15 @@ int main(int argc, const char *argv[]) {
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < m; j++) {
                 scanf("%d", &num);
-                if(j < i && num != 0){
+                if (j < i && num != 0) {
                     ret = 0;
                 }
 //                printf("i = %d, j = %d, num = %d, ret = %d\n", i, j, num, ret);
             }
         }
-        if(ret){
+        if (ret) {
             printf("YES\n");
-        } else{
+        } else {
             printf("NO\n");
         }
     }

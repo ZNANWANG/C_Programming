@@ -29,12 +29,12 @@ void swap(int *arr, int i, int j);
 int main(int argc, const char *argv[]) {
     int arr[50] = {};
     int n = 0, idx = 0, cnt = 0, minIndex = -1;
-    for(int i = 0; i < 10; i++){
+    for (int i = 0; i < 10; i++) {
         scanf("%d", &n);
-        if(cnt != 0 && minIndex == -1){
+        if (cnt != 0 && minIndex == -1) {
             minIndex = idx;
         }
-        for(int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             arr[idx++] = cnt;
         }
         cnt++;
@@ -42,11 +42,11 @@ int main(int argc, const char *argv[]) {
 
 //    printf("minIndex = %d\n", minIndex);
 
-    if(minIndex != 0){
+    if (minIndex != 0) {
         swap(arr, 0, minIndex);
     }
 
-    for(int i = 0; i < idx; i++){
+    for (int i = 0; i < idx; i++) {
         //
 //        {
 //            printf("arr[%d] = %d", i, arr[i]);
@@ -63,7 +63,7 @@ int main(int argc, const char *argv[]) {
     return 0;
 }
 
-void swap(int arr[], int i, int j){
+void swap(int arr[], int i, int j) {
     int temp = arr[i];
     arr[i] = arr[j];
     arr[j] = temp;

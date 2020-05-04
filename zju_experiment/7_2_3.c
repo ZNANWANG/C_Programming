@@ -37,30 +37,30 @@
  */
 #include <stdio.h>
 
-int main(int argc, const char *argv[]){
+int main(int argc, const char *argv[]) {
     int M = 0, N = 0;
     scanf("%d %d", &M, &N);
     int arr[M][N];
     int num = 0;
-    for(int i = 0; i < M; i++){
-        for(int j = 0; j < N; j++){
+    for (int i = 0; i < M; i++) {
+        for (int j = 0; j < N; j++) {
             scanf("%d", &num);
             arr[i][j] = num;
         }
     }
 
     int cnt = 0;
-    for(int i = 1; i < M - 1; i++){
-        for(int j = 1; j < N - 1; j++){
+    for (int i = 1; i < M - 1; i++) {
+        for (int j = 1; j < N - 1; j++) {
             int t = arr[i][j];
-            if(t > arr[i - 1][j] && t > arr[i + 1][j] && t > arr[i][j - 1] && t > arr[i][j + 1]){
+            if (t > arr[i - 1][j] && t > arr[i + 1][j] && t > arr[i][j - 1] && t > arr[i][j + 1]) {
                 cnt++;
                 printf("%d %d %d\n", t, i + 1, j + 1);
             }
         }
     }
 
-    if(cnt == 0){
+    if (cnt == 0) {
         printf("None %d %d\n", M, N);
     }
 

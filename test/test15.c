@@ -16,7 +16,7 @@
 #include <stdio.h>
 #include <string.h>
 
-double min = ~(unsigned int)0/2;
+double min = ~(unsigned int) 0 / 2;
 
 void permute(int arr[], int length, int start);
 
@@ -32,7 +32,7 @@ int main(int argc, const char *argv[]) {
         scanf("%c", &c);
         if (c >= '0' && c <= '9') {
             int n = c - '0';
-            for(int i = 0; i < n; i++){
+            for (int i = 0; i < n; i++) {
                 arr[idx++] = cnt;
             }
             cnt++;
@@ -47,10 +47,10 @@ int main(int argc, const char *argv[]) {
 }
 
 void permute(int arr[], int length, int start) {
-    if(start >= length){
+    if (start >= length) {
         double sum = 0;
-        for(int i = 0; i < length; i++){
-            if(i == 0 && arr[i] == 0){
+        for (int i = 0; i < length; i++) {
+            if (i == 0 && arr[i] == 0) {
                 return;
             }
             sum = sum * 10 + arr[i];
@@ -61,8 +61,8 @@ void permute(int arr[], int length, int start) {
         memset(unique, -1, length);
         int cnt = 0;
 
-        for(int i = 0; i < length; i++){
-            if(isUnique(unique, cnt, arr[i])) {
+        for (int i = 0; i < length; i++) {
+            if (isUnique(unique, cnt, arr[i])) {
                 unique[cnt++] = arr[i];
                 swap(arr, start, i);
                 permute(arr, length, start + 1);
@@ -75,8 +75,8 @@ void permute(int arr[], int length, int start) {
 
 int isUnique(int arr[], int length, int num) {
     int ret = 1;
-    for(int i = 0; i < length; i++){
-        if(arr[i] == num){
+    for (int i = 0; i < length; i++) {
+        if (arr[i] == num) {
             ret = 0;
             break;
         }

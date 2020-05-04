@@ -15,12 +15,12 @@ void swap(int *arr, int i, int j);
 
 int isUnique(int arr[], int length, int num);
 
-int main(int argc, const char *argv[]){
+int main(int argc, const char *argv[]) {
     srand(time(0));
     int length = 4;
     int arr[length];
     memset(arr, 0, length);
-    for(int i = 0; i < length; i++){
+    for (int i = 0; i < length; i++) {
         arr[i] = rand() % 10;
         printf("arr[%d] = %d\t", i, arr[i]);
     }
@@ -32,8 +32,8 @@ int main(int argc, const char *argv[]){
 }
 
 void permute(int arr[], int length, int start) {
-    if(start >= length){
-        for(int i = 0; i < length; i++){
+    if (start >= length) {
+        for (int i = 0; i < length; i++) {
             printf("%d\t", arr[i]);
         }
         printf("\n");
@@ -55,8 +55,8 @@ void permute(int arr[], int length, int start) {
 
 int isUnique(int arr[], int length, int num) {
     int ret = 1;
-    for(int i = 0; i < length; i++){
-        if(arr[i] == num){
+    for (int i = 0; i < length; i++) {
+        if (arr[i] == num) {
             ret = 0;
             break;
         }

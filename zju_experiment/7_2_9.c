@@ -42,25 +42,25 @@ void print1() {
     int n = 0;
     scanf("%d", &n);
     int arr[n][n];
-    int low = 0 ;
+    int low = 0;
     int high = n - 1;
     int left = 0;
     int right = n - 1;
     int num = 1;
-    while(low <= high && left <= right){
-        for(int i = left; i <= right; i++){
+    while (low <= high && left <= right) {
+        for (int i = left; i <= right; i++) {
             arr[low][i] = num++;
         }
 
-        for(int i = low + 1; i <= high; i++){
+        for (int i = low + 1; i <= high; i++) {
             arr[i][right] = num++;
         }
 
-        for(int i = right - 1; i >= left; i--){
+        for (int i = right - 1; i >= left; i--) {
             arr[high][i] = num++;
         }
 
-        for(int i = high - 1; i > low; i--){
+        for (int i = high - 1; i > low; i--) {
             arr[i][left] = num++;
         }
 
@@ -70,8 +70,8 @@ void print1() {
         right--;
     }
 
-    for(int i = 0; i < n; i++){
-        for(int j = 0; j < n; j++){
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
             printf("%3d", arr[i][j]);
         }
         printf("\n");
@@ -96,12 +96,12 @@ void print() {
 
     int flag = 0;
     int x = 0, y = -1;
-    for(int i = 1; i <= n * n; i++){
+    for (int i = 1; i <= n * n; i++) {
         int xInc = dir[flag][0];
         int yInc = dir[flag][1];
         int tx = x + xInc;
         int ty = y + yInc;
-        if(tx < 0 || tx >= n || ty < 0 || ty >= n || arr[tx][ty] != 0) {
+        if (tx < 0 || tx >= n || ty < 0 || ty >= n || arr[tx][ty] != 0) {
             flag = (flag + 1) % 4;
             xInc = dir[flag][0];
             yInc = dir[flag][1];
@@ -110,8 +110,8 @@ void print() {
         arr[x += xInc][y += yInc] = i;
     }
 
-    for(int i = 0; i < n; i++){
-        for(int j  = 0; j < n; j++){
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
             printf("%3d", arr[i][j]);
         }
         printf("\n");

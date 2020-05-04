@@ -34,7 +34,7 @@
 
 int checkBox(int box[], int length, int good);
 
-int main(int argc, const char *argv[]){
+int main(int argc, const char *argv[]) {
     int N = 0;
     scanf("%d", &N);
     int box[N];
@@ -42,7 +42,7 @@ int main(int argc, const char *argv[]){
     memset(box, 0, sizeof(box));
     int good = 0;
     int max = 0;
-    for(int i = 0; i < N; i++){
+    for (int i = 0; i < N; i++) {
         scanf("%d", &good);
         printf("%d ", good);
         int num = checkBox(box, N, good);
@@ -56,8 +56,8 @@ int main(int argc, const char *argv[]){
 
 int checkBox(int box[], int length, int good) {
     int num = 0;
-    for(int i = 0; i < length; i++){
-        if(box[i] + good <= 100){
+    for (int i = 0; i < length; i++) {
+        if (box[i] + good <= 100) {
             box[i] += good;
             num = i;
             break;

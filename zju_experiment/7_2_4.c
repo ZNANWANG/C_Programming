@@ -35,7 +35,7 @@ void input(int *year, int *month, int *day);
 
 void input1(int *year, int *month, int *day);
 
-int main(int argc, const char *argv[]){
+int main(int argc, const char *argv[]) {
     int year = 0, month = 0, day = 0;
     input1(&year, &month, &day);
 
@@ -46,13 +46,13 @@ int main(int argc, const char *argv[]){
     //
 
     int sum = 0;
-    for(int i = 1; i < month; i++){
-        if(i == 1 || i == 3 || i == 5 || i == 7 || i == 8 || i == 10 || i == 12){
+    for (int i = 1; i < month; i++) {
+        if (i == 1 || i == 3 || i == 5 || i == 7 || i == 8 || i == 10 || i == 12) {
             sum += 31;
-        } else if(i == 4 || i == 6 || i == 9 || i == 11){
+        } else if (i == 4 || i == 6 || i == 9 || i == 11) {
             sum += 30;
         } else {
-            if(isLeapYear(year)){
+            if (isLeapYear(year)) {
                 sum += 29;
             } else {
                 sum += 28;
@@ -81,7 +81,7 @@ void input(int *year, int *month, int *day) {
     char c;
     scanf("%c", &c);
     int sum = 0;
-    while(c != '/'){
+    while (c != '/') {
         int t = c - '0';
         sum = sum * 10 + t;
         scanf("%c", &c);
@@ -90,7 +90,7 @@ void input(int *year, int *month, int *day) {
     sum = 0;
 
     scanf("%c", &c);
-    while(c != '/'){
+    while (c != '/') {
         int t = c - '0';
         sum = sum * 10 + t;
         scanf("%c", &c);
@@ -99,7 +99,7 @@ void input(int *year, int *month, int *day) {
     sum = 0;
 
     scanf("%c", &c);
-    while(c != '\n'){
+    while (c != '\n') {
         int t = c - '0';
         sum = sum * 10 + t;
         scanf("%c", &c);
@@ -109,7 +109,7 @@ void input(int *year, int *month, int *day) {
 
 int isLeapYear(int year) {
     int ret = 0;
-    if(year % 4 == 0 && year % 100 != 0 || year % 400 == 0){
+    if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
         ret = 1;
     }
     return ret;

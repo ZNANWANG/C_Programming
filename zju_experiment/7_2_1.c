@@ -24,13 +24,14 @@
  * @Date: 5/3/2020 7:41 PM
  */
 #include <stdio.h>
-int main(int argc, const char *argv[]){
+
+int main(int argc, const char *argv[]) {
     int m = 0, n = 0;
     scanf("%d %d", &m, &n);
     int num = 0;
-    for(int i = 0; i < m; i++){
+    for (int i = 0; i < m; i++) {
         int sum = 0;
-        for(int j = 0; j < n; j++){
+        for (int j = 0; j < n; j++) {
             scanf("%d", &num);
             sum += num;
         }

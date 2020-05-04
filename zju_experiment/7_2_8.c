@@ -80,13 +80,13 @@ int main(int argc, const char *argv[]) {
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
             int t = arr[i][j];
-            if(t == maxRow[i] && t == minCol[j]){
+            if (t == maxRow[i] && t == minCol[j]) {
                 cnt++;
                 printf("%d %d\n", i, j);
             }
         }
     }
-    if(cnt == 0){
+    if (cnt == 0) {
         printf("NONE\n");
     }
 

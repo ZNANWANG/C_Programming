@@ -117,10 +117,10 @@ int main(int argc, const char *argv[]) {
     for (int i = 0; i < k; i++) {
         scanf("%d %d %d %d", &x1, &y1, &x2, &y2);
 //        printf("x1 = %d, y1 = %d, x2 = %d, y2 = %d\n", x1, y1, x2, y2);
-        if(matrix[x1 - 1][y1 - 1] == matrix[x2 - 1][y2 - 1]
-        && matrix[x1 - 1][y1 - 1] != '*' && matrix[x2 - 1][y2 - 1] != '*'){
+        if (matrix[x1 - 1][y1 - 1] == matrix[x2 - 1][y2 - 1]
+            && matrix[x1 - 1][y1 - 1] != '*' && matrix[x2 - 1][y2 - 1] != '*') {
             stars += 2;
-            if(stars == len * len){
+            if (stars == len * len) {
                 printf("Congratulations!\n");
                 break;
             } else {
@@ -140,7 +140,7 @@ int main(int argc, const char *argv[]) {
         } else {
             wrong++;
             printf("Uh-oh\n");
-            if(wrong == 3){
+            if (wrong == 3) {
                 printf("Game Over\n");
                 break;
             }
