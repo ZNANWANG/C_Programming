@@ -24,3 +24,19 @@
  * @Author: Wang An
  * @Date: 5/4/2020 11:25 PM
  */
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+    int N = 0;
+    scanf("%d", &N);
+    char *name = (char *) malloc(10 * sizeof(char));
+    double basicSalary = 0, floatingWage = 0, expense = 0;
+    for (int i = 0; i < N; i++) {
+        scanf("%s %lf %lf %lf", name, &basicSalary, &floatingWage, &expense);
+        double takeHomeSalary = basicSalary + floatingWage - expense;
+        printf("%s %.2lf\n", name, takeHomeSalary);
+    }
+
+    return 0;
+}
