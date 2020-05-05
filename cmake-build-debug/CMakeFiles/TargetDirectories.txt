@@ -76,6 +76,7 @@ G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/2_3_5.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/2_3_6.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/2_3_7.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/2_4_2.dir
+G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/10_10.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/2_4_3.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/7_1_11.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/2_4_4.dir
@@ -148,6 +149,7 @@ G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/test21.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/prac34.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/test20.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/prac35.dir
+G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/test23.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/prac36.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/test22.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/prac37.dir
@@ -210,11 +212,15 @@ G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/7_3_10.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/8_1_1.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/8_1_2.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/8_1_3.dir
+G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/10_9.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/8_1_4.dir
+G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/10_8.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/8_1_5.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/8_1_6.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/8_1_7.dir
+G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/10_5.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/8_1_8.dir
+G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/10_4.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/8_1_9.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/8_2_1.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/8_2_10.dir
@@ -223,6 +229,11 @@ G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/9_2.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/9_3.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/9_6.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/9_7.dir
+G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/10_1.dir
+G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/10_2.dir
+G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/10_3.dir
+G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/10_6.dir
+G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/10_7.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/edit_cache.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/test/CMakeFiles/edit_cache.dir
 G:/CLionProjects/C_Programming/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir
