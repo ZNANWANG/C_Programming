@@ -87,6 +87,23 @@ int main() {
     return 0;
 }
 
+/**
+ * 尾插法建立链表
+ */
 void input() {
+    struct stud_node *cur = (struct stud_node *) malloc(sizeof(struct stud_node));
+    scanf("%d", &cur->num);
+    while (cur->num != 0) {
+        scanf("%s%d", cur->name, &cur->score);
+        cur->next = NULL;
+        if (head == NULL) {
+            head = tail = cur;
+        } else {
+            tail->next = cur;
+            tail = cur;
+        }
 
+        cur = (struct stud_node *) malloc(sizeof(struct stud_node));
+        scanf("%d", &cur->num);
+    }
 }

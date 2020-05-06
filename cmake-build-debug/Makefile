@@ -799,6 +799,19 @@ prac31/fast:
 .PHONY : prac31/fast
 
 #=============================================================================
+# Target rules for targets named test27
+
+# Build rule for target.
+test27: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 test27
+.PHONY : test27
+
+# fast build rule for target.
+test27/fast:
+	$(MAKE) -f CMakeFiles\test27.dir\build.make CMakeFiles/test27.dir/build
+.PHONY : test27/fast
+
+#=============================================================================
 # Target rules for targets named prac32
 
 # Build rule for target.
@@ -810,6 +823,19 @@ prac32: cmake_check_build_system
 prac32/fast:
 	$(MAKE) -f CMakeFiles\prac32.dir\build.make CMakeFiles/prac32.dir/build
 .PHONY : prac32/fast
+
+#=============================================================================
+# Target rules for targets named test26
+
+# Build rule for target.
+test26: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 test26
+.PHONY : test26
+
+# fast build rule for target.
+test26/fast:
+	$(MAKE) -f CMakeFiles\test26.dir\build.make CMakeFiles/test26.dir/build
+.PHONY : test26/fast
 
 #=============================================================================
 # Target rules for targets named prac33
@@ -3307,6 +3333,110 @@ test19/fast:
 	$(MAKE) -f CMakeFiles\11_1_7.dir\build.make CMakeFiles/11_1_7.dir/build
 .PHONY : 11_1_7/fast
 
+#=============================================================================
+# Target rules for targets named 11_2_2
+
+# Build rule for target.
+11_2_2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 11_2_2
+.PHONY : 11_2_2
+
+# fast build rule for target.
+11_2_2/fast:
+	$(MAKE) -f CMakeFiles\11_2_2.dir\build.make CMakeFiles/11_2_2.dir/build
+.PHONY : 11_2_2/fast
+
+#=============================================================================
+# Target rules for targets named 11_2_3
+
+# Build rule for target.
+11_2_3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 11_2_3
+.PHONY : 11_2_3
+
+# fast build rule for target.
+11_2_3/fast:
+	$(MAKE) -f CMakeFiles\11_2_3.dir\build.make CMakeFiles/11_2_3.dir/build
+.PHONY : 11_2_3/fast
+
+#=============================================================================
+# Target rules for targets named 11_2_4
+
+# Build rule for target.
+11_2_4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 11_2_4
+.PHONY : 11_2_4
+
+# fast build rule for target.
+11_2_4/fast:
+	$(MAKE) -f CMakeFiles\11_2_4.dir\build.make CMakeFiles/11_2_4.dir/build
+.PHONY : 11_2_4/fast
+
+#=============================================================================
+# Target rules for targets named 11_2_5
+
+# Build rule for target.
+11_2_5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 11_2_5
+.PHONY : 11_2_5
+
+# fast build rule for target.
+11_2_5/fast:
+	$(MAKE) -f CMakeFiles\11_2_5.dir\build.make CMakeFiles/11_2_5.dir/build
+.PHONY : 11_2_5/fast
+
+#=============================================================================
+# Target rules for targets named 11_2_6
+
+# Build rule for target.
+11_2_6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 11_2_6
+.PHONY : 11_2_6
+
+# fast build rule for target.
+11_2_6/fast:
+	$(MAKE) -f CMakeFiles\11_2_6.dir\build.make CMakeFiles/11_2_6.dir/build
+.PHONY : 11_2_6/fast
+
+#=============================================================================
+# Target rules for targets named 11_2_7
+
+# Build rule for target.
+11_2_7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 11_2_7
+.PHONY : 11_2_7
+
+# fast build rule for target.
+11_2_7/fast:
+	$(MAKE) -f CMakeFiles\11_2_7.dir\build.make CMakeFiles/11_2_7.dir/build
+.PHONY : 11_2_7/fast
+
+#=============================================================================
+# Target rules for targets named 11_2_8
+
+# Build rule for target.
+11_2_8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 11_2_8
+.PHONY : 11_2_8
+
+# fast build rule for target.
+11_2_8/fast:
+	$(MAKE) -f CMakeFiles\11_2_8.dir\build.make CMakeFiles/11_2_8.dir/build
+.PHONY : 11_2_8/fast
+
+#=============================================================================
+# Target rules for targets named 11_2_9
+
+# Build rule for target.
+11_2_9: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 11_2_9
+.PHONY : 11_2_9
+
+# fast build rule for target.
+11_2_9/fast:
+	$(MAKE) -f CMakeFiles\11_2_9.dir\build.make CMakeFiles/11_2_9.dir/build
+.PHONY : 11_2_9/fast
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -5170,6 +5300,60 @@ test/test25.c.s:
 	$(MAKE) -f CMakeFiles\test25.dir\build.make CMakeFiles/test25.dir/test/test25.c.s
 .PHONY : test/test25.c.s
 
+test/test26.obj: test/test26.c.obj
+
+.PHONY : test/test26.obj
+
+# target to build an object file
+test/test26.c.obj:
+	$(MAKE) -f CMakeFiles\test26.dir\build.make CMakeFiles/test26.dir/test/test26.c.obj
+.PHONY : test/test26.c.obj
+
+test/test26.i: test/test26.c.i
+
+.PHONY : test/test26.i
+
+# target to preprocess a source file
+test/test26.c.i:
+	$(MAKE) -f CMakeFiles\test26.dir\build.make CMakeFiles/test26.dir/test/test26.c.i
+.PHONY : test/test26.c.i
+
+test/test26.s: test/test26.c.s
+
+.PHONY : test/test26.s
+
+# target to generate assembly for a file
+test/test26.c.s:
+	$(MAKE) -f CMakeFiles\test26.dir\build.make CMakeFiles/test26.dir/test/test26.c.s
+.PHONY : test/test26.c.s
+
+test/test27.obj: test/test27.c.obj
+
+.PHONY : test/test27.obj
+
+# target to build an object file
+test/test27.c.obj:
+	$(MAKE) -f CMakeFiles\test27.dir\build.make CMakeFiles/test27.dir/test/test27.c.obj
+.PHONY : test/test27.c.obj
+
+test/test27.i: test/test27.c.i
+
+.PHONY : test/test27.i
+
+# target to preprocess a source file
+test/test27.c.i:
+	$(MAKE) -f CMakeFiles\test27.dir\build.make CMakeFiles/test27.dir/test/test27.c.i
+.PHONY : test/test27.c.i
+
+test/test27.s: test/test27.c.s
+
+.PHONY : test/test27.s
+
+# target to generate assembly for a file
+test/test27.c.s:
+	$(MAKE) -f CMakeFiles\test27.dir\build.make CMakeFiles/test27.dir/test/test27.c.s
+.PHONY : test/test27.c.s
+
 test/test3.obj: test/test3.c.obj
 
 .PHONY : test/test3.obj
@@ -6087,6 +6271,222 @@ zju_experiment/11/11_2_1.s: zju_experiment/11/11_2_1.c.s
 zju_experiment/11/11_2_1.c.s:
 	$(MAKE) -f CMakeFiles\11_2_1.dir\build.make CMakeFiles/11_2_1.dir/zju_experiment/11/11_2_1.c.s
 .PHONY : zju_experiment/11/11_2_1.c.s
+
+zju_experiment/11/11_2_2.obj: zju_experiment/11/11_2_2.c.obj
+
+.PHONY : zju_experiment/11/11_2_2.obj
+
+# target to build an object file
+zju_experiment/11/11_2_2.c.obj:
+	$(MAKE) -f CMakeFiles\11_2_2.dir\build.make CMakeFiles/11_2_2.dir/zju_experiment/11/11_2_2.c.obj
+.PHONY : zju_experiment/11/11_2_2.c.obj
+
+zju_experiment/11/11_2_2.i: zju_experiment/11/11_2_2.c.i
+
+.PHONY : zju_experiment/11/11_2_2.i
+
+# target to preprocess a source file
+zju_experiment/11/11_2_2.c.i:
+	$(MAKE) -f CMakeFiles\11_2_2.dir\build.make CMakeFiles/11_2_2.dir/zju_experiment/11/11_2_2.c.i
+.PHONY : zju_experiment/11/11_2_2.c.i
+
+zju_experiment/11/11_2_2.s: zju_experiment/11/11_2_2.c.s
+
+.PHONY : zju_experiment/11/11_2_2.s
+
+# target to generate assembly for a file
+zju_experiment/11/11_2_2.c.s:
+	$(MAKE) -f CMakeFiles\11_2_2.dir\build.make CMakeFiles/11_2_2.dir/zju_experiment/11/11_2_2.c.s
+.PHONY : zju_experiment/11/11_2_2.c.s
+
+zju_experiment/11/11_2_3.obj: zju_experiment/11/11_2_3.c.obj
+
+.PHONY : zju_experiment/11/11_2_3.obj
+
+# target to build an object file
+zju_experiment/11/11_2_3.c.obj:
+	$(MAKE) -f CMakeFiles\11_2_3.dir\build.make CMakeFiles/11_2_3.dir/zju_experiment/11/11_2_3.c.obj
+.PHONY : zju_experiment/11/11_2_3.c.obj
+
+zju_experiment/11/11_2_3.i: zju_experiment/11/11_2_3.c.i
+
+.PHONY : zju_experiment/11/11_2_3.i
+
+# target to preprocess a source file
+zju_experiment/11/11_2_3.c.i:
+	$(MAKE) -f CMakeFiles\11_2_3.dir\build.make CMakeFiles/11_2_3.dir/zju_experiment/11/11_2_3.c.i
+.PHONY : zju_experiment/11/11_2_3.c.i
+
+zju_experiment/11/11_2_3.s: zju_experiment/11/11_2_3.c.s
+
+.PHONY : zju_experiment/11/11_2_3.s
+
+# target to generate assembly for a file
+zju_experiment/11/11_2_3.c.s:
+	$(MAKE) -f CMakeFiles\11_2_3.dir\build.make CMakeFiles/11_2_3.dir/zju_experiment/11/11_2_3.c.s
+.PHONY : zju_experiment/11/11_2_3.c.s
+
+zju_experiment/11/11_2_4.obj: zju_experiment/11/11_2_4.c.obj
+
+.PHONY : zju_experiment/11/11_2_4.obj
+
+# target to build an object file
+zju_experiment/11/11_2_4.c.obj:
+	$(MAKE) -f CMakeFiles\11_2_4.dir\build.make CMakeFiles/11_2_4.dir/zju_experiment/11/11_2_4.c.obj
+.PHONY : zju_experiment/11/11_2_4.c.obj
+
+zju_experiment/11/11_2_4.i: zju_experiment/11/11_2_4.c.i
+
+.PHONY : zju_experiment/11/11_2_4.i
+
+# target to preprocess a source file
+zju_experiment/11/11_2_4.c.i:
+	$(MAKE) -f CMakeFiles\11_2_4.dir\build.make CMakeFiles/11_2_4.dir/zju_experiment/11/11_2_4.c.i
+.PHONY : zju_experiment/11/11_2_4.c.i
+
+zju_experiment/11/11_2_4.s: zju_experiment/11/11_2_4.c.s
+
+.PHONY : zju_experiment/11/11_2_4.s
+
+# target to generate assembly for a file
+zju_experiment/11/11_2_4.c.s:
+	$(MAKE) -f CMakeFiles\11_2_4.dir\build.make CMakeFiles/11_2_4.dir/zju_experiment/11/11_2_4.c.s
+.PHONY : zju_experiment/11/11_2_4.c.s
+
+zju_experiment/11/11_2_5.obj: zju_experiment/11/11_2_5.c.obj
+
+.PHONY : zju_experiment/11/11_2_5.obj
+
+# target to build an object file
+zju_experiment/11/11_2_5.c.obj:
+	$(MAKE) -f CMakeFiles\11_2_5.dir\build.make CMakeFiles/11_2_5.dir/zju_experiment/11/11_2_5.c.obj
+.PHONY : zju_experiment/11/11_2_5.c.obj
+
+zju_experiment/11/11_2_5.i: zju_experiment/11/11_2_5.c.i
+
+.PHONY : zju_experiment/11/11_2_5.i
+
+# target to preprocess a source file
+zju_experiment/11/11_2_5.c.i:
+	$(MAKE) -f CMakeFiles\11_2_5.dir\build.make CMakeFiles/11_2_5.dir/zju_experiment/11/11_2_5.c.i
+.PHONY : zju_experiment/11/11_2_5.c.i
+
+zju_experiment/11/11_2_5.s: zju_experiment/11/11_2_5.c.s
+
+.PHONY : zju_experiment/11/11_2_5.s
+
+# target to generate assembly for a file
+zju_experiment/11/11_2_5.c.s:
+	$(MAKE) -f CMakeFiles\11_2_5.dir\build.make CMakeFiles/11_2_5.dir/zju_experiment/11/11_2_5.c.s
+.PHONY : zju_experiment/11/11_2_5.c.s
+
+zju_experiment/11/11_2_6.obj: zju_experiment/11/11_2_6.c.obj
+
+.PHONY : zju_experiment/11/11_2_6.obj
+
+# target to build an object file
+zju_experiment/11/11_2_6.c.obj:
+	$(MAKE) -f CMakeFiles\11_2_6.dir\build.make CMakeFiles/11_2_6.dir/zju_experiment/11/11_2_6.c.obj
+.PHONY : zju_experiment/11/11_2_6.c.obj
+
+zju_experiment/11/11_2_6.i: zju_experiment/11/11_2_6.c.i
+
+.PHONY : zju_experiment/11/11_2_6.i
+
+# target to preprocess a source file
+zju_experiment/11/11_2_6.c.i:
+	$(MAKE) -f CMakeFiles\11_2_6.dir\build.make CMakeFiles/11_2_6.dir/zju_experiment/11/11_2_6.c.i
+.PHONY : zju_experiment/11/11_2_6.c.i
+
+zju_experiment/11/11_2_6.s: zju_experiment/11/11_2_6.c.s
+
+.PHONY : zju_experiment/11/11_2_6.s
+
+# target to generate assembly for a file
+zju_experiment/11/11_2_6.c.s:
+	$(MAKE) -f CMakeFiles\11_2_6.dir\build.make CMakeFiles/11_2_6.dir/zju_experiment/11/11_2_6.c.s
+.PHONY : zju_experiment/11/11_2_6.c.s
+
+zju_experiment/11/11_2_7.obj: zju_experiment/11/11_2_7.c.obj
+
+.PHONY : zju_experiment/11/11_2_7.obj
+
+# target to build an object file
+zju_experiment/11/11_2_7.c.obj:
+	$(MAKE) -f CMakeFiles\11_2_7.dir\build.make CMakeFiles/11_2_7.dir/zju_experiment/11/11_2_7.c.obj
+.PHONY : zju_experiment/11/11_2_7.c.obj
+
+zju_experiment/11/11_2_7.i: zju_experiment/11/11_2_7.c.i
+
+.PHONY : zju_experiment/11/11_2_7.i
+
+# target to preprocess a source file
+zju_experiment/11/11_2_7.c.i:
+	$(MAKE) -f CMakeFiles\11_2_7.dir\build.make CMakeFiles/11_2_7.dir/zju_experiment/11/11_2_7.c.i
+.PHONY : zju_experiment/11/11_2_7.c.i
+
+zju_experiment/11/11_2_7.s: zju_experiment/11/11_2_7.c.s
+
+.PHONY : zju_experiment/11/11_2_7.s
+
+# target to generate assembly for a file
+zju_experiment/11/11_2_7.c.s:
+	$(MAKE) -f CMakeFiles\11_2_7.dir\build.make CMakeFiles/11_2_7.dir/zju_experiment/11/11_2_7.c.s
+.PHONY : zju_experiment/11/11_2_7.c.s
+
+zju_experiment/11/11_2_8.obj: zju_experiment/11/11_2_8.c.obj
+
+.PHONY : zju_experiment/11/11_2_8.obj
+
+# target to build an object file
+zju_experiment/11/11_2_8.c.obj:
+	$(MAKE) -f CMakeFiles\11_2_8.dir\build.make CMakeFiles/11_2_8.dir/zju_experiment/11/11_2_8.c.obj
+.PHONY : zju_experiment/11/11_2_8.c.obj
+
+zju_experiment/11/11_2_8.i: zju_experiment/11/11_2_8.c.i
+
+.PHONY : zju_experiment/11/11_2_8.i
+
+# target to preprocess a source file
+zju_experiment/11/11_2_8.c.i:
+	$(MAKE) -f CMakeFiles\11_2_8.dir\build.make CMakeFiles/11_2_8.dir/zju_experiment/11/11_2_8.c.i
+.PHONY : zju_experiment/11/11_2_8.c.i
+
+zju_experiment/11/11_2_8.s: zju_experiment/11/11_2_8.c.s
+
+.PHONY : zju_experiment/11/11_2_8.s
+
+# target to generate assembly for a file
+zju_experiment/11/11_2_8.c.s:
+	$(MAKE) -f CMakeFiles\11_2_8.dir\build.make CMakeFiles/11_2_8.dir/zju_experiment/11/11_2_8.c.s
+.PHONY : zju_experiment/11/11_2_8.c.s
+
+zju_experiment/11/11_2_9.obj: zju_experiment/11/11_2_9.c.obj
+
+.PHONY : zju_experiment/11/11_2_9.obj
+
+# target to build an object file
+zju_experiment/11/11_2_9.c.obj:
+	$(MAKE) -f CMakeFiles\11_2_9.dir\build.make CMakeFiles/11_2_9.dir/zju_experiment/11/11_2_9.c.obj
+.PHONY : zju_experiment/11/11_2_9.c.obj
+
+zju_experiment/11/11_2_9.i: zju_experiment/11/11_2_9.c.i
+
+.PHONY : zju_experiment/11/11_2_9.i
+
+# target to preprocess a source file
+zju_experiment/11/11_2_9.c.i:
+	$(MAKE) -f CMakeFiles\11_2_9.dir\build.make CMakeFiles/11_2_9.dir/zju_experiment/11/11_2_9.c.i
+.PHONY : zju_experiment/11/11_2_9.c.i
+
+zju_experiment/11/11_2_9.s: zju_experiment/11/11_2_9.c.s
+
+.PHONY : zju_experiment/11/11_2_9.s
+
+# target to generate assembly for a file
+zju_experiment/11/11_2_9.c.s:
+	$(MAKE) -f CMakeFiles\11_2_9.dir\build.make CMakeFiles/11_2_9.dir/zju_experiment/11/11_2_9.c.s
+.PHONY : zju_experiment/11/11_2_9.c.s
 
 zju_experiment/2/2-1-1.obj: zju_experiment/2/2-1-1.c.obj
 
@@ -10008,7 +10408,9 @@ help:
 	@echo ... prac30
 	@echo ... test24
 	@echo ... prac31
+	@echo ... test27
 	@echo ... prac32
+	@echo ... test26
 	@echo ... prac33
 	@echo ... 9_9
 	@echo ... test14
@@ -10202,6 +10604,14 @@ help:
 	@echo ... 11_2_1
 	@echo ... 11_1_1
 	@echo ... 11_1_7
+	@echo ... 11_2_2
+	@echo ... 11_2_3
+	@echo ... 11_2_4
+	@echo ... 11_2_5
+	@echo ... 11_2_6
+	@echo ... 11_2_7
+	@echo ... 11_2_8
+	@echo ... 11_2_9
 	@echo ... edit_cache
 	@echo ... main.obj
 	@echo ... main.i
@@ -10410,6 +10820,12 @@ help:
 	@echo ... test/test25.obj
 	@echo ... test/test25.i
 	@echo ... test/test25.s
+	@echo ... test/test26.obj
+	@echo ... test/test26.i
+	@echo ... test/test26.s
+	@echo ... test/test27.obj
+	@echo ... test/test27.i
+	@echo ... test/test27.s
 	@echo ... test/test3.obj
 	@echo ... test/test3.i
 	@echo ... test/test3.s
@@ -10512,6 +10928,30 @@ help:
 	@echo ... zju_experiment/11/11_2_1.obj
 	@echo ... zju_experiment/11/11_2_1.i
 	@echo ... zju_experiment/11/11_2_1.s
+	@echo ... zju_experiment/11/11_2_2.obj
+	@echo ... zju_experiment/11/11_2_2.i
+	@echo ... zju_experiment/11/11_2_2.s
+	@echo ... zju_experiment/11/11_2_3.obj
+	@echo ... zju_experiment/11/11_2_3.i
+	@echo ... zju_experiment/11/11_2_3.s
+	@echo ... zju_experiment/11/11_2_4.obj
+	@echo ... zju_experiment/11/11_2_4.i
+	@echo ... zju_experiment/11/11_2_4.s
+	@echo ... zju_experiment/11/11_2_5.obj
+	@echo ... zju_experiment/11/11_2_5.i
+	@echo ... zju_experiment/11/11_2_5.s
+	@echo ... zju_experiment/11/11_2_6.obj
+	@echo ... zju_experiment/11/11_2_6.i
+	@echo ... zju_experiment/11/11_2_6.s
+	@echo ... zju_experiment/11/11_2_7.obj
+	@echo ... zju_experiment/11/11_2_7.i
+	@echo ... zju_experiment/11/11_2_7.s
+	@echo ... zju_experiment/11/11_2_8.obj
+	@echo ... zju_experiment/11/11_2_8.i
+	@echo ... zju_experiment/11/11_2_8.s
+	@echo ... zju_experiment/11/11_2_9.obj
+	@echo ... zju_experiment/11/11_2_9.i
+	@echo ... zju_experiment/11/11_2_9.s
 	@echo ... zju_experiment/2/2-1-1.obj
 	@echo ... zju_experiment/2/2-1-1.i
 	@echo ... zju_experiment/2/2-1-1.s
