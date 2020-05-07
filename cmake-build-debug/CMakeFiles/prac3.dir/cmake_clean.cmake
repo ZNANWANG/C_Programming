@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/prac3.dir/mooc/prac3.c.obj"
+  "CMakeFiles/prac3.dir/mooc_c/prac3.c.obj"
   "libprac3.dll.a"
   "prac3.exe"
   "prac3.exe.manifest"

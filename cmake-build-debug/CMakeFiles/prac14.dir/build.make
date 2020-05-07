@@ -56,27 +56,27 @@ include CMakeFiles/prac14.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/prac14.dir/flags.make
 
-CMakeFiles/prac14.dir/mooc/prac14.c.obj: CMakeFiles/prac14.dir/flags.make
-CMakeFiles/prac14.dir/mooc/prac14.c.obj: ../mooc/prac14.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\CLionProjects\C_Programming\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/prac14.dir/mooc/prac14.c.obj"
-	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\prac14.dir\mooc\prac14.c.obj   -c G:\CLionProjects\C_Programming\mooc\prac14.c
+CMakeFiles/prac14.dir/mooc_c/prac14.c.obj: CMakeFiles/prac14.dir/flags.make
+CMakeFiles/prac14.dir/mooc_c/prac14.c.obj: ../mooc_c/prac14.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\CLionProjects\C_Programming\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/prac14.dir/mooc_c/prac14.c.obj"
+	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\prac14.dir\mooc_c\prac14.c.obj   -c G:\CLionProjects\C_Programming\mooc_c\prac14.c
 
-CMakeFiles/prac14.dir/mooc/prac14.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/prac14.dir/mooc/prac14.c.i"
-	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\CLionProjects\C_Programming\mooc\prac14.c > CMakeFiles\prac14.dir\mooc\prac14.c.i
+CMakeFiles/prac14.dir/mooc_c/prac14.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/prac14.dir/mooc_c/prac14.c.i"
+	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\CLionProjects\C_Programming\mooc_c\prac14.c > CMakeFiles\prac14.dir\mooc_c\prac14.c.i
 
-CMakeFiles/prac14.dir/mooc/prac14.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/prac14.dir/mooc/prac14.c.s"
-	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\CLionProjects\C_Programming\mooc\prac14.c -o CMakeFiles\prac14.dir\mooc\prac14.c.s
+CMakeFiles/prac14.dir/mooc_c/prac14.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/prac14.dir/mooc_c/prac14.c.s"
+	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\CLionProjects\C_Programming\mooc_c\prac14.c -o CMakeFiles\prac14.dir\mooc_c\prac14.c.s
 
 # Object files for target prac14
 prac14_OBJECTS = \
-"CMakeFiles/prac14.dir/mooc/prac14.c.obj"
+"CMakeFiles/prac14.dir/mooc_c/prac14.c.obj"
 
 # External object files for target prac14
 prac14_EXTERNAL_OBJECTS =
 
-prac14.exe: CMakeFiles/prac14.dir/mooc/prac14.c.obj
+prac14.exe: CMakeFiles/prac14.dir/mooc_c/prac14.c.obj
 prac14.exe: CMakeFiles/prac14.dir/build.make
 prac14.exe: CMakeFiles/prac14.dir/linklibs.rsp
 prac14.exe: CMakeFiles/prac14.dir/objects1.rsp

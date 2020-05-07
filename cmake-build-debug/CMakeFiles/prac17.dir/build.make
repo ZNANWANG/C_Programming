@@ -56,27 +56,27 @@ include CMakeFiles/prac17.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/prac17.dir/flags.make
 
-CMakeFiles/prac17.dir/mooc/prac17.c.obj: CMakeFiles/prac17.dir/flags.make
-CMakeFiles/prac17.dir/mooc/prac17.c.obj: ../mooc/prac17.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\CLionProjects\C_Programming\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/prac17.dir/mooc/prac17.c.obj"
-	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\prac17.dir\mooc\prac17.c.obj   -c G:\CLionProjects\C_Programming\mooc\prac17.c
+CMakeFiles/prac17.dir/mooc_c/prac17.c.obj: CMakeFiles/prac17.dir/flags.make
+CMakeFiles/prac17.dir/mooc_c/prac17.c.obj: ../mooc_c/prac17.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\CLionProjects\C_Programming\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/prac17.dir/mooc_c/prac17.c.obj"
+	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\prac17.dir\mooc_c\prac17.c.obj   -c G:\CLionProjects\C_Programming\mooc_c\prac17.c
 
-CMakeFiles/prac17.dir/mooc/prac17.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/prac17.dir/mooc/prac17.c.i"
-	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\CLionProjects\C_Programming\mooc\prac17.c > CMakeFiles\prac17.dir\mooc\prac17.c.i
+CMakeFiles/prac17.dir/mooc_c/prac17.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/prac17.dir/mooc_c/prac17.c.i"
+	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\CLionProjects\C_Programming\mooc_c\prac17.c > CMakeFiles\prac17.dir\mooc_c\prac17.c.i
 
-CMakeFiles/prac17.dir/mooc/prac17.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/prac17.dir/mooc/prac17.c.s"
-	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\CLionProjects\C_Programming\mooc\prac17.c -o CMakeFiles\prac17.dir\mooc\prac17.c.s
+CMakeFiles/prac17.dir/mooc_c/prac17.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/prac17.dir/mooc_c/prac17.c.s"
+	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\CLionProjects\C_Programming\mooc_c\prac17.c -o CMakeFiles\prac17.dir\mooc_c\prac17.c.s
 
 # Object files for target prac17
 prac17_OBJECTS = \
-"CMakeFiles/prac17.dir/mooc/prac17.c.obj"
+"CMakeFiles/prac17.dir/mooc_c/prac17.c.obj"
 
 # External object files for target prac17
 prac17_EXTERNAL_OBJECTS =
 
-prac17.exe: CMakeFiles/prac17.dir/mooc/prac17.c.obj
+prac17.exe: CMakeFiles/prac17.dir/mooc_c/prac17.c.obj
 prac17.exe: CMakeFiles/prac17.dir/build.make
 prac17.exe: CMakeFiles/prac17.dir/linklibs.rsp
 prac17.exe: CMakeFiles/prac17.dir/objects1.rsp

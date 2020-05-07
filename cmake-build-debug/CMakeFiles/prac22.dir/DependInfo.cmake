@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "G:/CLionProjects/C_Programming/mooc/prac22.c" "G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/prac22.dir/mooc/prac22.c.obj"
+  "G:/CLionProjects/C_Programming/mooc_c/prac22.c" "G:/CLionProjects/C_Programming/cmake-build-debug/CMakeFiles/prac22.dir/mooc_c/prac22.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

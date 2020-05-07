@@ -21,7 +21,7 @@ int main() {
     int number;
     printf("Please input a number:\n");
     scanf("%d", &number);
-//    int ret = binarySearch(number, sorted, length);
+//    int ret = binarySearch1(number, sorted, length);
     int ret = binarySearch1(number, sorted, 0, length - 1, length);
     if (ret != -1) {
         printf("%d在数组第%d个位置上", number, ret + 1);

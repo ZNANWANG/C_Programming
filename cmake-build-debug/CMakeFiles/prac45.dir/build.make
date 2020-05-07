@@ -56,27 +56,27 @@ include CMakeFiles/prac45.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/prac45.dir/flags.make
 
-CMakeFiles/prac45.dir/mooc/prac45.c.obj: CMakeFiles/prac45.dir/flags.make
-CMakeFiles/prac45.dir/mooc/prac45.c.obj: ../mooc/prac45.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\CLionProjects\C_Programming\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/prac45.dir/mooc/prac45.c.obj"
-	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\prac45.dir\mooc\prac45.c.obj   -c G:\CLionProjects\C_Programming\mooc\prac45.c
+CMakeFiles/prac45.dir/mooc_c/prac45.c.obj: CMakeFiles/prac45.dir/flags.make
+CMakeFiles/prac45.dir/mooc_c/prac45.c.obj: ../mooc_c/prac45.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\CLionProjects\C_Programming\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/prac45.dir/mooc_c/prac45.c.obj"
+	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\prac45.dir\mooc_c\prac45.c.obj   -c G:\CLionProjects\C_Programming\mooc_c\prac45.c
 
-CMakeFiles/prac45.dir/mooc/prac45.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/prac45.dir/mooc/prac45.c.i"
-	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\CLionProjects\C_Programming\mooc\prac45.c > CMakeFiles\prac45.dir\mooc\prac45.c.i
+CMakeFiles/prac45.dir/mooc_c/prac45.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/prac45.dir/mooc_c/prac45.c.i"
+	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\CLionProjects\C_Programming\mooc_c\prac45.c > CMakeFiles\prac45.dir\mooc_c\prac45.c.i
 
-CMakeFiles/prac45.dir/mooc/prac45.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/prac45.dir/mooc/prac45.c.s"
-	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\CLionProjects\C_Programming\mooc\prac45.c -o CMakeFiles\prac45.dir\mooc\prac45.c.s
+CMakeFiles/prac45.dir/mooc_c/prac45.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/prac45.dir/mooc_c/prac45.c.s"
+	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\CLionProjects\C_Programming\mooc_c\prac45.c -o CMakeFiles\prac45.dir\mooc_c\prac45.c.s
 
 # Object files for target prac45
 prac45_OBJECTS = \
-"CMakeFiles/prac45.dir/mooc/prac45.c.obj"
+"CMakeFiles/prac45.dir/mooc_c/prac45.c.obj"
 
 # External object files for target prac45
 prac45_EXTERNAL_OBJECTS =
 
-prac45.exe: CMakeFiles/prac45.dir/mooc/prac45.c.obj
+prac45.exe: CMakeFiles/prac45.dir/mooc_c/prac45.c.obj
 prac45.exe: CMakeFiles/prac45.dir/build.make
 prac45.exe: CMakeFiles/prac45.dir/linklibs.rsp
 prac45.exe: CMakeFiles/prac45.dir/objects1.rsp

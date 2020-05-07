@@ -56,27 +56,27 @@ include CMakeFiles/prac41.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/prac41.dir/flags.make
 
-CMakeFiles/prac41.dir/mooc/prac41.c.obj: CMakeFiles/prac41.dir/flags.make
-CMakeFiles/prac41.dir/mooc/prac41.c.obj: ../mooc/prac41.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\CLionProjects\C_Programming\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/prac41.dir/mooc/prac41.c.obj"
-	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\prac41.dir\mooc\prac41.c.obj   -c G:\CLionProjects\C_Programming\mooc\prac41.c
+CMakeFiles/prac41.dir/mooc_c/prac41.c.obj: CMakeFiles/prac41.dir/flags.make
+CMakeFiles/prac41.dir/mooc_c/prac41.c.obj: ../mooc_c/prac41.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\CLionProjects\C_Programming\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/prac41.dir/mooc_c/prac41.c.obj"
+	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\prac41.dir\mooc_c\prac41.c.obj   -c G:\CLionProjects\C_Programming\mooc_c\prac41.c
 
-CMakeFiles/prac41.dir/mooc/prac41.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/prac41.dir/mooc/prac41.c.i"
-	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\CLionProjects\C_Programming\mooc\prac41.c > CMakeFiles\prac41.dir\mooc\prac41.c.i
+CMakeFiles/prac41.dir/mooc_c/prac41.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/prac41.dir/mooc_c/prac41.c.i"
+	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\CLionProjects\C_Programming\mooc_c\prac41.c > CMakeFiles\prac41.dir\mooc_c\prac41.c.i
 
-CMakeFiles/prac41.dir/mooc/prac41.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/prac41.dir/mooc/prac41.c.s"
-	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\CLionProjects\C_Programming\mooc\prac41.c -o CMakeFiles\prac41.dir\mooc\prac41.c.s
+CMakeFiles/prac41.dir/mooc_c/prac41.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/prac41.dir/mooc_c/prac41.c.s"
+	G:\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\CLionProjects\C_Programming\mooc_c\prac41.c -o CMakeFiles\prac41.dir\mooc_c\prac41.c.s
 
 # Object files for target prac41
 prac41_OBJECTS = \
-"CMakeFiles/prac41.dir/mooc/prac41.c.obj"
+"CMakeFiles/prac41.dir/mooc_c/prac41.c.obj"
 
 # External object files for target prac41
 prac41_EXTERNAL_OBJECTS =
 
-prac41.exe: CMakeFiles/prac41.dir/mooc/prac41.c.obj
+prac41.exe: CMakeFiles/prac41.dir/mooc_c/prac41.c.obj
 prac41.exe: CMakeFiles/prac41.dir/build.make
 prac41.exe: CMakeFiles/prac41.dir/linklibs.rsp
 prac41.exe: CMakeFiles/prac41.dir/objects1.rsp
